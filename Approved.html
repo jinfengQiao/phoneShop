@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个税核定筹划</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/individual.css">
+</head>
+<body>
+    <div class="box">
+        <!-- 头 -->
+        <div class="header"></div>
+        <!-- 图片 -->
+        <div class="individual_bg">
+            <!-- <img src="images/individual_bg.png" alt=""> -->
+        </div>
+        <!-- 真实节税案例对比 -->
+        <div class="real">
+            <div class="realHead">真实节税案例对比</div>
+            <div class="realCont">
+                <div class="realCont1">
+                    <ul>
+                        <li class="realCont1Add">高管个税</li>
+                        <li>股权转让</li>
+                        <li>高利润企业</li>
+                    </ul>
+                </div>
+                <div class="realCont2">
+                    <ul>
+                        <li class="realCont2Li1">
+                            <div class="realLe">
+                                <p>
+                                    高管年工资
+                                    <span>36万</span>
+                                </p>
+                                <p>
+                                    需纳税
+                                    <span>2.9万</span>
+                                </p>
+                            </div>
+                            <img src="images/vs.png" alt="">
+                            <div class="realRi">
+                                <p>
+                                    权鹏集团筹划后只需纳税<span>1800元</span>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="realCont2Li2">
+                            <div class="realLe">
+                                <p>
+                                    高管年工资
+                                    <span>31万</span>
+                                </p>
+                                <p>
+                                    需纳税
+                                    <span>2.9万</span>
+                                </p>
+                            </div>
+                            <img src="images/vs.png" alt="">
+                            <div class="realRi">
+                                <p>
+                                    权鹏集团筹划后只需纳税<span>1800元</span>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="realCont2Li3">
+                            <div class="realLe">
+                                <p>
+                                    高管年工资
+                                    <span>32万</span>
+                                </p>
+                                <p>
+                                    需纳税
+                                    <span>2.9万</span>
+                                </p>
+                            </div>
+                            <img src="images/vs.png" alt="">
+                            <div class="realRi">
+                                <p>
+                                    权鹏集团筹划后只需纳税<span>1800元</span>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="posiText">Comparison of real tax saving cases</div>
+        </div>
+        <!-- 全鹏集团节税优势 -->
+        <div class="advantageImg">
+            <img src="images/advantageImg.png" alt="">
+        </div>
+        <!-- 权鹏集团 -->
+        <div class="quanpeng">
+            <div class="realHead">权鹏集团</div>
+            <div class="quanpengCont">
+                <div class="quanpengContLe">
+                    <img src="images/quanpengContLeImg.png" alt="">
+                </div>
+                <div class="quanpengContRi">
+                    <ul>
+                        <li>
+                            <img src="images/address1.png" alt="">
+                            <p>全国线下<span>布局</span>多</p>
+                        </li>
+                        <li>
+                            <img src="images/address2.png" alt="">
+                            <p><span>百家园区</span>资源整</p>
+                        </li>
+                        <li>
+                            <img src="images/address1.png" alt="">
+                            <p><span>14年</span>行业深耕经</p>
+                        </li>
+                        <li>
+                            <img src="images/address2.png" alt="">
+                            <p>高效税筹合规<span>保</span></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="posiText">quanpeng group</div>
+        </div>
+
+        
+        <!-- 脚 -->
+        <div class="footer"></div>
+    </div>
+
+
+</body>
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/rem.js"></script>
+<script src="js/common.js"></script>
+<script src="js/individual.js"></script>
+<script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script>
+    function getUrlParam(name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); //构造一个含有目标参数的正则表达式对象
+        var r = window.location.search.substr(1).match(reg);  //匹配目标参数
+        if (r != null) return unescape(r[2]); return null; //返回参数值
+    }
+    var id= getUrlParam('id')
+    // console.log(id)
+    // banner
+    $.post(localStorage.getItem('http') + 'banner/get_list',{nav_id:id},function(res){
+        // console.log(res.data);
+        var html= '';
+        html +='<img src="'+ res.data[0].phone_pic_url +'" alt="">'
+        $('.individual_bg').html(html);
+    })
+</script>
+</html>

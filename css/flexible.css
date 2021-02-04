@@ -1,0 +1,741 @@
+.flexible_bg{
+    float: left;
+    width: 100%;
+    /* height: 3rem; */
+}
+.flexible_bg img{
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+.yourBusi{
+    float: left;
+    width: 100%;
+    padding: 0.6rem 0.32rem;
+    box-sizing: border-box;
+}
+.yourBusiHead{
+    float: left;
+    width: 100%;
+    height: 0.74rem;
+}
+.yourBusiHead span{
+    float: left;
+    margin-right: 0.1rem;
+    font-size: 0.56rem;
+    font-weight: bold;
+    line-height: 0.74rem;
+    color: #1672F9;
+}
+.textBox{
+    float: left;
+}
+.textBoxbox{
+    float: right;
+}
+.textBox1{
+    font-size: 0.3rem;
+    font-weight: 400;
+    color: #333333;
+}
+.textBox2{
+    font-size: 0.2em;
+    font-weight: 400;
+    color: #666666;
+}
+.yourBusiCont{
+    position: relative;
+    float: left;
+    margin-top: 0.36rem;
+    width: 100%;
+}
+.yourBusiCont img{
+    position: absolute;
+    right:0;
+    top: 0;
+    width: 3rem;
+    height: 2.2rem;
+}
+.yourBusiCont ul{
+    float: left;
+    width: 100%;
+}
+.yourBusiCont ul li{
+    float: left;
+    margin-bottom: 0.12rem;
+    width: 100%;
+    line-height: 0.32rem;
+}
+.yourBusiCont ul li:last-child{
+    margin-bottom: 0;
+}
+.yourBusiCont span{
+    float: left;
+    margin-right: 0.16rem;
+    font-size: 0.26rem;
+    font-family: Roboto;
+    font-weight: 900;
+    color: #1672F9;
+}
+.yourBusiCont p{
+    float: left;
+    font-size: 0.24rem;
+    font-weight: 400;
+    color: #333333;
+}
+.recrUse{
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 0.6rem 0.32rem;
+    box-sizing: border-box;
+    background: url('../images/operFlow_bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.recrUseHead{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 0.74rem;
+}
+.recrUseHeadBox{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -1.35rem;
+    width: 2.7rem;
+    height: 0.74rem;
+}
+.recrUseHeadBox span{
+    float: left;
+    margin-right: 0.1rem;
+    font-size: 0.56rem;
+    font-weight: bold;
+    line-height: 0.74rem;
+    color: #FFFFFF;
+    opacity: 0.5; 
+}
+.recrUseText{
+    float: left;
+}
+.recrUseText1{
+    font-size: 0.3rem;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.recrUseText2{
+    font-size: 0.2rem;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.recrUseImg{
+    position: relative;
+    float: left;
+    margin-top: 0.36rem;
+    width: 100%;
+}
+.recrUseImg img{
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+.flowBox{
+    position: absolute;
+    left: 0;
+    bottom: 0.6rem;
+    width: 1rem;
+}
+.flowBox ul{
+    float: left;
+    width: 100%;
+}
+.flowBox ul li{
+    float: left;
+    width: 100%;
+    height: 0.32rem;
+    line-height: 0.32rem;
+}
+.redBlock{
+    float: left;
+    margin-right: 0.05rem;
+    margin-top: 0.05rem;
+    width: 0.18rem;
+    height: 0.18rem;
+    background: #FF3131;
+    opacity: 1;
+    border-radius: 1px;
+}
+.whiteBlock{
+    float: left;
+    margin-right: 0.05rem;
+    margin-top: 0.05rem;
+    width: 0.18rem;
+    height: 0.18rem;
+    background: #ffffff;
+    opacity: 1;
+    border-radius: 1px;
+}
+.pinkBlock{
+    float: left;
+    margin-right: 0.05rem;
+    margin-top: 0.05rem;
+    width: 0.18rem;
+    height: 0.18rem;
+    background: #FFA1A1;
+    opacity: 1;
+    border-radius: 1px;
+}
+.flowBox span{
+    float: left;
+    font-size: 0.2rem;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.operFlowCont{
+    float: left;
+    margin-top: 0.16rem;
+    width: 100%;
+}
+.operFlowCont ul{
+    float: left;
+    width: 100%;
+}
+.operFlowCont ul li{
+    float: left;
+    margin-top: 0.2rem;
+    width: 50%;
+    min-height: 1.87rem;
+    font-size: 0.24rem;
+    font-weight: 400;
+    line-height: 0.36rem;
+    color: #FFFFFF;
+}
+.operFlowCont ul li:nth-child(2n+1){
+    padding-right: 0.16rem;
+    box-sizing: border-box;
+}
+.operFlowCont ul li:nth-child(2n){
+    padding-left: 0.16rem;
+    box-sizing: border-box;
+}
+.operFlowCont ul li img{
+    float: left;
+    width: 0.46rem;
+    height: 0.43rem;
+}
+.operFlowCont ul li span{
+    float: left;
+    width: 100%;
+}
+.platform{
+    float: left;
+    width: 100%;
+    padding: 0.6rem 0.32rem;
+    box-sizing: border-box;
+}
+.platformHead{
+    float: left;
+    width: 100%;
+}
+.platformHead span{
+    float: left;
+    margin-right: 0.1rem;
+    font-size: 0.56rem;
+    font-weight: bold;
+    line-height: 0.74rem;
+    color: #EBEBEB;
+}
+.platformCont{
+    float: left;
+    margin-top: 0.36rem;
+    width: 100%;
+}
+.platformCont1{
+    float: left;
+    width: 100%;
+}
+.platformCont1 ul{
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+.platformCont1 ul li{
+    float: left;
+    width: 1.4rem;
+    height: 0.46rem;
+    line-height: 0.46rem;
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    opacity: 1;
+    border-radius: 0.2rem;
+    font-size: 0.16rem;
+    font-weight: 400;
+    color: #A0A0A0;
+    padding: 0 0.02rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+.platformCont1 img{
+    margin-right: 0.04rem;
+    margin-top: 0.09rem;
+    width: 0.24rem;
+    height: 0.24rem;
+}
+.platformCont1 span{
+    font-size: 0.16rem;
+    font-weight: 400;
+}
+.platformCont1Add{
+    border: 1px solid #1672F9!important;
+    color: #1672F9!important;
+}
+.platformCont2{
+    float: left;
+    margin-top: 0.12rem;
+    width: 100%;
+    height: 3.48rem;
+}
+.platformCont2 img{
+    float: left;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.platformCont22,.platformCont23,.platformCont24{
+    display: none;
+}
+.fit{
+    float: left;
+    width: 100%;
+    background: #F8F9FB;
+    padding: 0.6rem 0.32rem;
+    box-sizing: border-box;
+}
+.fitHead{
+    float: left;
+    width: 100%;
+}
+.fitHead span{
+    float: right;
+    margin-right: 0.1rem;
+    font-size: 0.56rem;
+    font-weight: bold;
+    line-height: 0.74rem;
+    color: #1672F9;
+}
+.fitCont{
+    float: left;
+    margin-top: 0.36rem;
+    width: 100%;
+}
+.fitCont ul{
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;    
+}
+.fitCont ul li{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 2.2rem;
+    flex: 0 0 33.33%;
+    background-color: #ff0;
+    background: url('../images/fitCont_bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 0.26rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+.fitCont img{
+    width: 0.8rem;
+    height: 0.8rem;
+}
+.fitCont ul li span{
+    position: absolute;
+    bottom: 0.35rem;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 0.5rem;
+    color: #DDDDDD;
+    letter-spacing: 1px;
+    z-index: 1;
+}
+.fitCont ul li p{
+    position: absolute;
+    bottom: 0.26rem;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 0.26rem;
+    font-weight: 400;
+    color: #333333;
+    letter-spacing: 1px;
+    background-color: #ffffff;
+    z-index: 2;
+}
+.fitContBox{
+    position: relative;
+    float: left;
+    width: 66%;
+    height: 2.2rem;
+    background: url('../images/fitContBox_bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 0.27rem 0;
+    box-sizing: border-box;
+}
+.fitContBox span{
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 0.28rem;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.fitContBox p{
+    float: left;
+    margin-top: 0.24rem;
+    width: 100%;
+    text-align: center;
+    font-size: 0.22rem;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.btnBox{
+    position: absolute;
+    bottom: 0.27rem;
+    left: 50%;
+    width: 1.45rem;
+    margin-left: -0.725rem;
+}
+.btnBox button{
+    float: left;
+    width: 1.45rem;
+    height: 0.4rem;
+    background: #F38200;
+    font-size: 0.12rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    /* padding: 0 0.3rem 0 0.2rem; */
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 0.18rem;
+}
+.btnBox img{
+    position: absolute;
+    top: 0.16rem;
+    right: 0.1rem;
+    width: 0.2rem!important;
+    height: 0.12rem!important;
+}
+
+.payment{
+    float: left;
+    width: 100%;
+    padding: 0.6rem 0.32rem;
+    box-sizing: border-box;
+    background: url('../images/payment_bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.paymentHead{
+    float: left;
+    width: 100%;
+    height: 0.74rem;
+}
+.paymentHead span{
+    float: left;
+    margin-right: 0.1rem;
+    font-size: 0.56rem;
+    font-weight: bold;
+    line-height: 0.74rem;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+.paymentCont{
+    float: left;
+    margin-top: 0.36rem;
+    width: 100%;
+}
+.paymentCont ul{
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.paymentCont ul li{
+    float: left;
+    width: 1.82rem;
+}
+.paymentCont img{
+    float: left;
+    margin-left: 0.31rem;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+.paymentCont p{
+    float: left;
+    margin-top: 0.24rem;
+    width: 100%;
+    font-size: 0.18rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 0.36rem;
+    padding: 0 0.1rem;
+}
+.paymentCont span{
+    float: left;
+    font-size: 0.3rem;
+    font-weight: 400;
+    line-height: 0.36rem;
+    color: #F38200;
+}
+.advantage{
+    float: left;
+    width: 100%;
+    padding: 0.6rem 0.32rem;
+    box-sizing: border-box;
+    background: #F8F9FB;
+}
+.advantageHead{
+    float: left;
+    width: 100%;
+}
+.advantageHead span{
+    float: right;
+    margin-right: 0.1rem;
+    font-size: 0.56rem;
+    font-weight: bold;
+    line-height: 0.74rem;
+    color: #1672F9;
+}
+.advantageCont{
+    position: relative;
+    float: left;
+    margin-top: 0.24rem;
+    width: 100%;
+}
+.advantageContRi{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+.advantageContRi ul{
+    float: right;
+    width: 2.8rem;
+}
+.advantageContRi ul li{
+    float: left;
+    margin-bottom: 0.2rem;
+    width: 100%;
+    height: 0.6rem;
+    line-height: 0.6rem;
+}
+.displayNone{
+    display: none;
+}
+.displayBlock{
+    display: block;
+}
+.advantageContRiAdd{
+    color: #1672F9!important;
+}
+.advantageContRi ul li:last-child{
+    margin-bottom: 0;
+}
+.advantageContRi span{
+    float: left;
+    margin-right: 0.2rem;
+    width: 2rem;
+    text-align: right;
+    font-size: 0.24rem;
+    font-weight: 400;
+    color: #000000;
+}
+.advantageContRi .img{
+    float: right;
+    width: 0.6rem;
+    height: 0.6rem;
+}
+.advantageContRi ul li:first-child .img{
+    background: url('../images/advantageContRiImg1.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.advantageContRi ul li:nth-child(2) .img{
+    background: url('../images/advantageContRiImg2.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.advantageContRi ul li:nth-child(3) .img{
+    background: url('../images/advantageContRiImg3.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.advantageContRi ul li:last-child .img{
+    background: url('../images/advantageContRiImg4.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.advantageContLe{
+    float: left;
+    width: 2.8rem;
+    background-color: #ff0;
+}
+.advantageContLeBox{
+    float: left;
+    width: 100%;
+}
+.advantageContLe_bg{
+    float: left;
+    width: 100%;
+}
+.advantageContLe_bg img{
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+.advantageContLeCont{
+    position: relative;
+    float: left;
+    width: 100%;
+    background-color: #1672F9;
+    font-size: 0.2rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding: 0.16rem 0.16rem 0.64rem 0.16rem;
+    box-sizing: border-box;
+}
+.advantageContLeCont span{
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 0.24rem;
+    color: #FFFFFF;
+    margin-right: 0;
+}
+.advantageContLeCont p{
+    float: left;
+    margin-top: 0.05rem;
+    width: 100%;
+    font-size: 0.2rem;
+    color: #FFFFFF;
+    opacity: 0.8;
+    padding: 0 0 0.1rem 0;
+    box-sizing: border-box;
+}
+.btnBox1{
+    position: absolute;
+    bottom: 0.16rem;
+    right: 0.16rem;
+    width: 1.45rem;
+    /* margin-left: -0.725rem; */
+}
+.btnBox1 button{
+    float: left;
+    width: 1.45rem;
+    height: 0.4rem;
+    font-size: 0.12rem;
+    font-weight: 400;
+    outline: none;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    opacity: 1;
+    color: #ffffff;
+}
+.btnBox1 img{
+    position: absolute;
+    top: 0.16rem;
+    right: 0.1rem;
+    width: 0.2rem!important;
+    height: 0.12rem!important;
+}
+.reason{
+    float: left;
+    width: 100%;
+    padding: 0.6rem 0.32rem;
+    box-sizing: border-box;
+    background: url('../images/reason_bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.reasonHead{
+    float: left;
+    width: 100%;
+    height: 0.74rem;
+}
+.reasonHead span{
+    float: left;
+    margin-right: 0.1rem;
+    font-size: 0.56rem;
+    font-weight: bold;
+    line-height: 0.74rem;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+.reasonCont,.reasonCont ul{
+    float: left;
+    width: 100%;
+}
+.reasonCont{
+    margin-top: 0.36rem;
+}
+.reasonCont ul a{
+    float: left;
+    margin-bottom: 0.32rem;
+    width: 50%;
+}
+.reasonCont ul a:nth-child(2n+1){
+    padding-right: 0.16rem;
+    box-sizing: border-box;
+}
+.reasonCont ul a:nth-child(2n){
+    padding-left: 0.16rem;
+    box-sizing: border-box;
+}
+.reasonCont ul a:nth-child(3){
+    margin-bottom: 0;
+}
+.reasonCont ul a:nth-child(4){
+    margin-bottom: 0;
+}
+.reasonCont1{
+    float: left;
+    width: 100%;
+    background: rgba(22, 114, 249, 0.02);
+    border: 1px solid rgba(255,255,255,0.5);
+    box-sizing: border-box;
+    padding: 0.16rem;
+}
+.reasonCont3{
+    min-height: 1.9rem;
+}
+.reasonCont span{
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 0.28rem;
+    color: #FFFFFF;
+}
+.reasonCont p{
+    float: left;
+    margin-top: 0.16rem;
+    width: 100%;
+    font-size: 0.22rem;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+
+
+
+
+

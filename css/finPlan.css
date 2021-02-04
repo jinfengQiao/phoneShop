@@ -1,0 +1,503 @@
+.finPlan_bg{
+    float: left;
+    width: 100%;
+    /* height: 3rem; */
+}
+.finPlan_bg img{
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+.problem{
+    float: left;
+    width: 100%;
+    padding: 0.6rem 0.32rem;
+    box-sizing: border-box;
+}
+.finPlanHead{
+    float: left;
+    width: 100%;
+}
+.finPlanHead span{
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 0.4rem;
+    font-weight: bold;
+    color: #0067FF;
+}
+.finPlanHead p{
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 0.32rem;
+    font-weight: 400;
+    color: #333333;
+}
+.problem ul{
+    float: left;
+    margin-top: 0.36rem;
+    width: 100%;
+}
+.problem ul li{
+    float: left;
+    margin-bottom: 0.24rem;
+    width: 100%;
+    line-height: 0.32rem;
+    padding: 0 0 0 0.5rem;
+    box-sizing: border-box;
+}
+.problem ul li:last-child{
+    margin-bottom: 0;
+}
+.problem ul li img{
+    float: left;
+    margin-top: 2px;
+    margin-right: 0.12rem; 
+    width: 12px;
+    height: 12px;
+}
+.problem ul li p{
+    float: left;
+    /* font-size: 0.24rem; */
+    font-size: 12px;
+    font-weight: 400;
+    color: #333333;
+}
+.programme{
+    float: left;
+    width: 100%;
+    padding: 0.6rem 0.32rem;
+    box-sizing: border-box;
+    background: #F8F9FB;
+}
+.programme ul{
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+.programme ul li{
+    float: left;
+    width: 1.8rem;
+    height: 3.2rem;
+}
+.programme ul li img{
+    float: left;
+}
+.programme ul li p{
+    float: left;
+    width: 100%;
+}
+.plan{
+    float: left;
+    width: 100%;
+    padding: 0.6rem 0.32rem;
+    box-sizing: border-box;
+    background: url('../images/plan_bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.finPlanHead1{
+    float: left;
+    width: 100%;
+}
+.finPlanHead1 span{
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 0.4rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.finPlanHead1 p{
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 0.32rem;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.planHead{
+    float: left;
+    margin-top: 0.36rem;
+    width: 100%;
+    /* height: 1.34rem; */
+}
+.planHead ul{
+    /* float: left;
+    width: 100%;
+    display: flex;
+    justify-content:space-between; */
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.planHead ul li{
+    /* position: relative;
+    float: left;
+    width: 1.8rem;
+    padding: 0.12rem 0 0.44rem 0;
+    box-sizing: border-box;
+    text-align: center; */
+    position: relative;
+    float: left;
+    /* width: 1.8rem; */
+    /* height: 1.5rem; */
+    padding: 0.2rem 0 0.6rem 0;
+    margin-top: 0.2rem;
+    /* margin-bottom: 0px; */
+    box-sizing: border-box;
+    text-align: center;
+}
+.planHead ul li:first-child{
+    margin-top: 0;
+}
+.planHead1{
+    background: url('../images/planHead1_bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-size: 12px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.planHead1 a{
+    float: left;
+    width: 100%;
+    margin-top: 0.12rem;
+}
+.planHead2{
+    background: url('../images/planHead2_bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-size: 0.18rem;
+    font-weight: 400;
+    color: #333333;
+}
+.planHead3{
+    background: url('../images/planHead3_bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-size: 0.18rem;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.planHead p{
+    float: left;
+    width: 100%;
+    line-height: 0.26rem;
+    /* text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical; */
+    /* text-align: left; */
+    /* text-indent: 2em; */
+    /* padding: 0 0.12rem; */
+    /* box-sizing: border-box; */
+}
+.p1{
+    margin-top: 0.1rem;
+}
+.planHead button{
+    position: absolute;
+    left: 50%;
+    margin-left: -0.6rem;
+    /* bottom: 0.12rem; */
+    bottom: 0.24rem;
+    width: 1.2rem;
+    height: 0.32rem;
+    line-height: 0.32rem;
+    border: 0.01rem solid #FFFFFF;
+    opacity: 1;
+    border-radius: 0.15rem;
+    outline: none;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.planHead2 button{
+    width: 1rem;
+    height: 0.32rem;
+    border: 0.01rem solid #1672F9;
+    opacity: 1;
+    border-radius: 0.15rem;
+    outline: none;
+    font-size: 12px;
+    color: #1672F9;
+}
+.planCont{
+    float: left;
+    margin-top: 0.26rem;
+    width: 100%;
+}
+.planContLe{
+    position: relative;
+    float: left;
+    width: 50%;
+    padding: 0.1rem 0.1rem 0 0.4rem;
+    box-sizing: border-box;
+}
+.planContLe .A{
+    position: absolute;
+    left: 0;
+    top: -0.05rem;
+    font-size: 0.44rem;
+    font-family: Roboto;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+.planContRi{
+    position: relative;
+    float: right;
+    width: 50%;
+    padding: 0.1rem 0 0 0.5rem;
+    box-sizing: border-box;
+}
+.planContLe1{
+    float: left;
+    width: 100%;
+}
+.planContLe1 span{
+    float: left;
+    font-size: 0.24rem;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.planContLe2{
+    float: left;
+    width: 100%;
+    margin-top: 0.1rem;
+    font-size: 0.18rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    opacity: 0.9;
+    height: 1.45rem;
+}
+.planContLe2 span{
+    color:#F38200;
+}
+.planContLe3{
+    position: relative;
+    float: left;
+    margin-top: 0.16rem;
+    /* width: 1.5rem; */
+}
+.planContLe3 button{
+    float: left;
+    width: 1.6rem;
+    height: 0.36rem;
+    line-height: 0.36rem;
+    background: #F38200;
+    font-size: 0.12rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding: 0 0.3rem 0 0.2rem;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 0.02rem;
+}
+/* .planContLe3 button {
+    float: left;
+    width: 1.8rem;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    background: #F38200;
+    font-size: 0.12rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding: 0 0.3rem 0 0.2rem;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 0.02rem;
+} */
+.planContLe3 img{
+    position: absolute;
+    top: 0.12rem;
+    right: 0.08rem;
+    width: 0.2rem;
+    height: 0.12rem;
+}
+.planContRi .B{
+    position: absolute;
+    left: 0.1rem;
+    top: -0.05rem;
+    font-size: 0.44rem;
+    font-family: Roboto;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+.proFlow{
+    float: left;
+    width: 100%;
+    padding: 0.6rem 0.32rem;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+.proFlowBox{
+    float: left;
+    width: 100%;
+}
+.proFlowBox1,.proFlowBox2{
+    position: relative;
+    float: left;
+    margin-top: 0.36rem;
+    width: 100%;
+    height: 3.4rem;
+}
+.proFlowBox_bg{
+    position: absolute;
+    top: 0.7rem;
+    left: 0;
+    width: 100%;
+    height: 0.5rem;
+    background: url('../images/proFlowBox_bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 1;
+}
+.proFlowBox11,.proFlowBox13{
+    position: relative;
+    float: left;
+    margin-left: 0.3rem;
+    width: 2rem;
+    z-index: 2;
+}
+.proFlowBox12,.proFlowBox14{
+    position: relative;
+    float: right;
+    margin-right: 0.3rem;
+    width: 2rem;
+    z-index: 2;
+}
+.proFlowBox11 img,.proFlowBox13 img,.proFlowBox12 img,.proFlowBox14 img{
+    float: left;
+    margin-left: 0.43rem;
+    width: 1.14rem;
+    height: 1.87rem;
+}
+.proFlowBox span{
+    float: left;
+    margin-top: 0.2rem;
+    width: 100%;
+    text-align: center;
+    font-size: 0.28rem;
+    font-weight: 400;
+    color: #333333;
+}
+.proFlowBox p{
+    float: left;
+    margin-top: 0.2rem;
+    width: 100%;
+    font-size: 0.24rem;
+    font-weight: 400;
+    color: #707070;
+}
+.advantage{
+    float: left;
+    width: 100%;
+    padding: 0.6rem 0.32rem;
+    box-sizing: border-box;
+    background: url('../images/advantage_bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.advantageCont{
+    float: left;
+    margin-top: 0.36rem;
+    width: 100%;
+}
+.advantageCont ul{
+    float: left;
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.advantageCont ul li{
+    float: left;
+    margin-bottom: 0.24rem;
+    width: 1.8rem;
+    height: 1.56rem;
+    padding: 0.24rem 0.2rem 0 0.2rem;
+    box-sizing: border-box;
+}
+.advantageCont ul li:nth-child(7),
+.advantageCont ul li:nth-child(8),
+.advantageCont ul li:nth-child(9){
+    margin-bottom: 0;
+}
+.advantageContImg1 img{
+    float: left;
+    margin-left: 0.46rem;
+    width: 0.6rem;
+    height: 0.48rem;
+}
+.advantageContImg1 p{
+    margin-top: 0.15rem;
+}
+.advantageContImg2 img{
+    float: left;
+    margin-left: 0.5rem;
+    width: 0.48rem;
+    height: 0.48rem;
+}
+.advantageContImg3 img{
+    float: left;
+    margin-left: 0.4rem;
+    width: 0.6rem;
+    height: 0.6rem;
+}
+.advantageContImg4 img{
+    float: left;
+    margin-left: 0.4rem;
+    width: 0.6rem;
+    height: 0.4rem;
+}
+.advantageContImg5 img{
+    float: left;
+    margin-left: 0.475rem;
+    width: 0.45rem;
+    height: 0.48rem;
+}
+.advantageContImg5 p{
+    margin-top: 0.02rem;
+}
+.advantageContImg6 img{
+    float: left;
+    margin-left: 0.46rem;
+    width: 0.48rem;
+    height: 0.5rem;
+}
+.advantageContImg7 img{
+    float: left;
+    margin-left: 0.45rem;
+    width: 0.5rem;
+    height: 0.5rem;
+}
+.advantageContImg8 img{
+    float: left;
+    margin-left: 0.45rem;
+    width: 0.5rem;
+    height: 0.48rem;
+}
+.advantageCont p{
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 0.2rem;
+    font-weight: 400;
+    line-height: 0.3rem;
+    color: #333333;
+}
+
+
+
+
+
+

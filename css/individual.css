@@ -1,0 +1,200 @@
+.individual_bg{
+    float: left;
+    width: 100%;
+    /* height: 3rem; */
+}
+.individual_bg img{
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+.real{
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 0.6rem 0.32rem;
+    box-sizing: border-box;
+}
+.realHead{
+    position: relative;
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 0.3rem;
+    color: #444444;
+    font-weight: 600;
+    z-index: 2;
+}
+.realCont{
+    float: left;
+    margin-top: 0.36rem;
+    width: 100%;
+    height: 2.06rem;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(22, 114, 249, 0.16);
+    opacity: 1;
+    border-radius: 8px;
+}
+.realCont1{
+    float: left;
+    width: 100%;
+    /* height: 0.72rem; */
+    line-height: 0.72rem;
+    border-bottom: 1px solid #E6E6E6;
+    box-sizing: border-box;
+}
+.realCont1 ul{
+    float: left;
+    width: 100%;
+    padding: 0 0.36rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.realCont1 ul li{
+    float: left;
+    padding: 0 0.05rem;
+    box-sizing: border-box;
+    font-size: 0.24rem;
+    color: #666666;
+}
+.realCont1Add{
+    color: #1672F9!important;border-bottom: 1px solid #1672F9;box-sizing: border-box;
+}
+.realCont2{
+    position: relative;
+    float: left;
+    margin-top: 0.36rem;
+    width: 100%;
+    padding: 0 0.36rem;
+    box-sizing: border-box;
+}
+.realCont2 ul,.realCont2 ul li{
+    float: left;
+    width: 100%;
+}
+.realLe{
+    float: left;
+    width: 1.8rem;
+    font-size: 0.22rem;
+    color: #666666;
+}
+.realLe p{
+    float: left;
+    width: 100%;
+}
+.realLe span{
+    color: #1672F9;
+}
+.realCont2 img{
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 1rem;
+    height: 0.6rem;
+    margin-left: -0.5rem;
+}
+.realRi{
+    float: right;
+    width: 1.8rem;
+    font-size: 0.22rem;
+    color: #666666;
+}
+.realRi p{
+    float: left;
+    width: 100%;
+}
+.realRi span{
+    color: #1672F9;
+}
+.realCont2Li1{
+    display: block;
+}
+.realCont2Li2,.realCont2Li3{
+    display: none;
+}
+.posiText{
+    position: absolute;
+    left: 0;
+    top: 0.8rem;
+    width: 100%;
+    font-size: 0.22rem;
+    font-family: Roboto;
+    font-weight: bold;
+    color: #1672F9;
+    opacity: 0.2;
+    text-transform: uppercase;
+    text-align: center;
+    z-index: 1;
+}
+.advantageImg{
+    float: left;
+    width: 100%;
+}
+.advantageImg img{
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+.quanpeng{
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 0.6rem 0.32rem;
+    box-sizing: border-box;
+}
+.quanpengCont{
+    float: left;
+    margin-top: 0.36rem;
+    width: 100%;
+}
+.quanpengContLe{
+    float: left;
+    width: 3.2rem;
+}
+.quanpengContLe img{
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+.quanpengContRi{
+    float: right;
+    width: 2.4rem;
+}
+.quanpengContRi ul{
+    float: left;
+    width: 100%;
+}
+.quanpengContRi ul li{
+    float: left;
+    margin-bottom: 0.24rem;
+    width: 100%;
+    line-height: 0.35rem;
+}
+.quanpengContRi ul li:last-child{
+    margin-bottom: 0;
+}
+.quanpengContRi img{
+    float: left;
+    margin-right: 0.1rem;
+    width: 0.24rem;
+    height: 0.32rem;
+}
+.quanpengContRi p{
+    float: left;
+    font-size: 0.26rem;
+    color: #333333;
+}
+.quanpengContRi span{
+    color: #1672F9;
+}
+
+
+
+
+
+
+
+
+

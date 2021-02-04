@@ -1,0 +1,46 @@
+<header>
+    <div class="headLead">
+        <img src="images/logo.png" alt="">
+    </div>
+    <div class="headRigh">
+        <img src="images/headRigh_icon.png" alt="">
+    </div>
+    <!-- 按钮点击实现的展开部分 -->
+     <div class="popupBox">
+        <div class="popup">
+            <div class="logoBox">
+                <img src="images/logo1.png" alt="">
+            </div>
+            <ul>
+                <!-- <li onclick="jumpIndex()">首页</li>
+                <li>商事服务</li>
+                <li onclick="jumpFinPlan()">财税筹划</li>
+                <li onclick="jumpDaikai()">自然人代开</li>
+                <li onclick="jumpFlexible()">灵活用工</li>
+                <li>网络货运</li>
+                <li onclick="jumpIndustry()">行业资讯</li>
+                <li onclick="jumpEnterQP()">走进权鹏</li>
+                <li onclick="jumpRecruit()">招贤纳士</li>
+                <li>联系我们</li>
+                <li>登录注册</li> -->
+            </ul>
+        </div>
+     </div>
+</header>
+<script>
+    $.post(localStorage.getItem('http') + 'nav/get_top_nav',{},function(res){
+        var html= '';
+        $.each(res.data,function(k,v){
+            var url = v.link
+            if(v.id == 1){
+                url = 'http://wap.tjqpjt.com'
+            }
+            if(v.id == 2){
+                url = 'http://m.tjqpjt.com'
+            }
+            html += '<a href="'+ url +'?id='+ v.id +'"><li>'+ v.name +'</li></a>'
+        })
+        $('.popup ul').html(html);
+    })
+
+</script>

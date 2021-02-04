@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>招贤纳士</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/recruit.css">
+</head>
+<body>
+    <div class="box">
+        <!-- 头 -->
+        <div class="header"></div>
+        <!-- 图片 -->
+        <div class="recruit_bg">
+            <!-- <img src="images/recruit_bg.png" alt=""> -->
+        </div>
+        <div class="cont">
+            <ul>
+                <!-- <li>
+                    <div class="contHead">
+                        <div class="contHeadLe">
+                            <div class="text">后端工程师</div>
+                            <div class="num">1</div>
+                            <span>Back end Engineer</span>
+                        </div>
+                        <div class="contHeadRi">
+                            薪资：<span>6~8k</span>
+                        </div>
+                    </div>
+                    <div class="post">
+                        岗位职责
+                        <div class="postBg"></div>
+                    </div>
+                    <div class="contCont">
+
+                    </div>
+                    <div class="post">
+                        任职要求
+                        <div class="postBg"></div>
+                    </div>
+                    <div class="contCont">
+
+                    </div>
+                </li>
+                <li>
+                    <div class="contHead">
+                        <div class="contHeadLe">
+                            <div class="text">后端工程师</div>
+                            <div class="num">1</div>
+                            <span>Back end Engineer</span>
+                        </div>
+                        <div class="contHeadRi">
+                            薪资：<span>6~8k</span>
+                        </div>
+                    </div>
+                    <div class="post">
+                        岗位职责
+                        <div class="postBg"></div>
+                    </div>
+                    <div class="contCont">
+
+                    </div>
+                    <div class="post">
+                        任职要求
+                        <div class="postBg"></div>
+                    </div>
+                    <div class="contCont">
+
+                    </div>
+                </li>
+                <li>
+                    <div class="contHead">
+                        <div class="contHeadLe">
+                            <div class="text">后端工程师</div>
+                            <div class="num">1</div>
+                            <span>Back end Engineer</span>
+                        </div>
+                        <div class="contHeadRi">
+                            薪资：<span>6~8k</span>
+                        </div>
+                    </div>
+                    <div class="post">
+                        岗位职责
+                        <div class="postBg"></div>
+                    </div>
+                    <div class="contCont">
+
+                    </div>
+                    <div class="post">
+                        任职要求
+                        <div class="postBg"></div>
+                    </div>
+                    <div class="contCont">
+
+                    </div>
+                </li> -->
+            </ul>
+        </div>
+
+
+        <!-- 脚 -->
+        <div class="footer"></div>
+    </div>
+
+
+</body>
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/rem.js"></script>
+<script src="js/common.js"></script>
+<script src="js/recruit.js"></script>
+<script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script>
+
+    function getUrlParam(name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); //构造一个含有目标参数的正则表达式对象
+        var r = window.location.search.substr(1).match(reg);  //匹配目标参数
+        if (r != null) return unescape(r[2]); return null; //返回参数值
+    }
+    var id= getUrlParam('id')
+    // console.log(id)
+    // banner
+    $.post(localStorage.getItem('http') + 'banner/get_list',{nav_id:id},function(res){
+        // console.log(res.data);
+        var html= '';
+        html +='<img src="'+ res.data[0].phone_pic_url +'" alt="">'
+        $('.recruit_bg').html(html);
+    })
+
+
+    $.post(localStorage.getItem('http') + 'recruit/get_list',{},function(res){
+        console.log(res.data.list);
+        var html= '';
+        $.each(res.data.list,function(k,v){
+            var position_en = v.position_en,
+                position_en;
+            //非0 非空 非false 非null
+            if(position_en){
+                position_en = v.position_en;
+            }else{
+                position_en = '';
+            }
+            k = k+1
+            html += '<li>'
+            html += '<div class="contHead">'
+            html += '<div class="contHeadLe">'
+            html += '<div class="text">'+ v.title +'</div>'
+            html += '<div class="num">'+ k +'</div>'
+            html += '<span>'+ position_en +'</span>'
+            html += '</div>'
+            html += '<div class="contHeadRi">'
+            html += '薪资：<span>'+ v.salary +'</span>'
+            html += '</div>'
+            html += '</div>'
+            html += '<div class="post">'
+            html += '岗位职责'
+            html += '<div class="postBg"></div>'
+            html += '</div>'
+            html += '<div class="contCont">'+ v.duty +'</div>'
+            html += '<div class="post">'
+            html += '任职要求'
+            html += '<div class="postBg"></div>'
+            html += '</div>'
+            html += '<div class="contCont">'+ v.require +'</div>'
+            html += '</li>'
+        })
+        $('.cont ul').html(html);
+    })
+</script>
+</html>

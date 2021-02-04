@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>行业咨询详情</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/inDetails.css">
+</head>
+<body>
+    <div class="box">
+        <!-- 头 -->
+        <div class="header"></div>
+        <div class="cont">
+            <!-- <div class="title">社保政策新变化！企业正确缴纳社保</div>
+            <div class="time">
+                发布时间：<span>2020-05-29</span>
+            </div>
+            <div class="contBox">
+                <span>根据财税（2018）164号《关于个人所得税法修改后有关优惠政策衔接问题的通知》，居民个人取得全年一次性奖金，有两种计税情况：</span>
+                <p>1、符合国税发（2005）9号文规定的，在2021年12月31日前，独立于工资所得，用优惠计税方法计税；</p>
+                <p>2、也可以选择并入当年综合所得计税。*2022年1月1日后，全年一次性奖金优惠计税方法不再适用。 由于年奖金的特殊优惠计税方法要求年度奖金除以12
+                    个月找相应的月度综合所得税率，但只能减除一个月速算扣除数，因此可能产生奖金多发1元，导致税率提高而净收入减少的情形，即通常所说的奖金发放黑洞。
+                </p>
+                <img src="images/contRiImg.png" alt="">
+                <span>根据财税（2018）164号《关于个人所得税法修改后有关优惠政策衔接问题的通知》，居民个人取得全年一次性奖金，有两种计税情况：</span>
+                <p>1、符合国税发（2005）9号文规定的，在2021年12月31日前，独立于工资所得，用优惠计税方法计税；</p>
+                <p>2、也可以选择并入当年综合所得计税。*2022年1月1日后，全年一次性奖金优惠计税方法不再适用。 由于年奖金的特殊优惠计税方法要求年度奖金除以12
+                    个月找相应的月度综合所得税率，但只能减除一个月速算扣除数，因此可能产生奖金多发1元，导致税率提高而净收入减少的情形，即通常所说的奖金发放黑洞。
+                </p>
+            </div> -->
+        </div>
+
+
+
+
+
+
+        <!-- 脚 -->
+        <div class="footer"></div>
+    </div>
+
+
+</body>
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/rem.js"></script>
+<script src="js/common.js"></script>
+<script src="js/inDetails.js"></script>
+<script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script>
+    function getUrlParam(name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); //构造一个含有目标参数的正则表达式对象
+        var r = window.location.search.substr(1).match(reg);  //匹配目标参数
+        if (r != null) return unescape(r[2]); return null; //返回参数值
+    }
+    var id= getUrlParam('id')
+    console.log(id);
+    $.post(localStorage.getItem('http') + 'article/get_detail',{id:id},function(res){
+        console.log(res.data);
+        var html= '';
+        
+        html +='<div class="title">'+ res.data.title +'</div>'
+        html +='<div class="time">'
+        html +='发布时间：<span>'+ res.data.publishtime +'</span>'
+        html +='</div>'
+        html +='<div class="contBox">'
+        html +='<p>'+ res.data.content +'</p>'
+        // html +='<img src="'+ res.data.pic_url +'" alt="">'
+        html +='</div>'
+
+
+
+
+        $('.cont').html(html);
+    })
+</script>
+</html>

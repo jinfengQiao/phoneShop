@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自然人代开</title>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/daikai.css">
+    <style>
+        /* .swiper-container {
+        width: 100%;
+        height: 100%;
+        }
+        .swiper-slide {
+            /* width: 101px!important;
+            margin-right: 0!important; */
+        /*background-color: rgba(0, 0, 0, 0);
+        text-align: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        transition: 300ms;
+        transform: scale(0.8);
+        }
+        .swiper-slide-active,.swiper-slide-duplicate-active{
+        transform: scale(1);
+        }
+        .swiper-button-next.swiper-button-black, .swiper-button-prev.swiper-button-black{
+            --swiper-navigation-color:#ccc;
+            outline: none;
+        }
+        .swiper-slide-active, .swiper-slide-duplicate-active{*/
+            /* width: 40%!important; */
+        /*}
+        .swiper-slide{
+            /* width: 30%!important; */
+            /*flex-direction: column;
+        }
+        .reasonCont .swiper-slide p{
+            box-shadow: 0px 2px 10px rgba(43, 43, 43, 0.1);
+            width: 100%;
+            background: white;
+            padding: 0.12rem 0;
+            font-size: 14px;
+            /* display: none; */
+            /*justify-content: center;
+            align-items: center;
+        } */
+
+.reason {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #F8F9FB;
+    padding: 0.6rem 0.32rem;
+    box-sizing: border-box;
+}
+.reason .rea {
+  /* width: 1200px; */
+  float: left;
+  width: 100%;
+}
+.reason .rea .one_title h1 {
+  color: #EEEEEE;
+}
+.reason .rea .reasonCont {
+  margin-top: 30px;
+}
+.reason .rea .reasonCont .swiper-container {
+  width: 100%;
+  /* padding: 0 32px; */
+  /* height: 314px; */
+  --swiper-navigation-size: 12px;
+}
+.reason .rea .reasonCont .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* Center slide text vertically */
+  background:#F8F9FB;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  transition: 300ms;
+  transform: scale(0.8);
+  flex-direction: column;
+  padding-bottom: 70px;
+}
+.reason .rea .reasonCont .swiper-slide img {
+  width: 100%;
+  height: 1.34rem;
+  display: block;
+  object-fit: cover;
+}
+.reason .rea .reasonCont .swiper-slide p {
+  /* box-shadow: 0px 2px 10px rgba(43, 43, 43, 0.1); */
+  width: 200%;
+  /* background: #fff; */
+  padding: 16px 0;
+  /* box-sizing: border-box; */
+  font-size: 12px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.reason .rea .reasonCont .swiper-slide-active,
+.reason .rea .reasonCont .swiper-slide-duplicate-active {
+  transform: scale(1.5);
+  z-index: 1;
+  padding-bottom: 0;
+  background: #F8F9FB;
+}
+.reason .rea .reasonCont .swiper-slide-active p,
+.reason .rea .reasonCont .swiper-slide-duplicate-active p {
+  display: flex;
+  transform: scale(0.8);
+}
+.reason .rea .reasonCont .button .swiper-button-black {
+  width: 32px;
+  height: 32px;
+  background: white;
+  border-radius: 50%;
+  box-shadow: 0px 2px 10px rgba(43, 43, 43, 0.1);
+}
+.reason .rea .reasonCont .button .swiper-button-black:nth-child(1) {
+  left: 8px;
+  top: 97px;
+}
+.reason .rea .reasonCont .button .swiper-button-black:nth-child(2) {
+  top: 97px;
+}
+</style>
+</head>
+<body>
+    <div class="box">
+        <!-- 头 -->
+        <div class="header"></div>
+        <!-- 图片 -->
+        <div class="daikai_bg">
+            <!-- <img src="images/daikai_bg.png" alt=""> -->
+        </div>
+        <!-- 权鹏集团,为您解决 -->
+        <div class="solve">
+            <div class="solveHead">权鹏集团,为您解决</div>
+            <div class="solveCont">
+                <div class="solveCont1">
+                    <div class="text1">个人佣金高个税高</div>
+                    <div class="text2">增值税无进项<br>无票难以入账，负税重</div>
+                </div>
+                <div class="text3">高净值人群个税高</div>
+                <div class="text4">交完所得税，还交分<br>红个税，税款占比重大</div>
+            </div>
+        </div>
+        <div class="daikaiBg1">
+            <img src="images/daikaiBg1Img1.png" alt="">
+            <img src="images/daikaiBg1Img2.png" alt="">
+            <img src="images/daikaiBg1Img3.png" alt="">
+            <img src="images/daikaiBg1Img4.png" alt="">
+            <img src="images/daikaiBg1Img5.png" alt="">
+            <img src="images/daikaiBg1Img6.png" alt="">
+            <img src="images/daikaiBg1Img7.png" alt="">
+            <img src="images/daikaiBg1Img8.png" alt="">
+            <img src="images/daikaiBg1Img9.png" alt="">
+        </div>
+        <!-- 需要我的理由 -->
+        <div class="reason">
+            <div class="rea">
+                <div class="reasonHead">
+                    选择我的理由
+                    <span>REAOOM</span>
+                </div>
+                <div class="reasonCont">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="./images/three_swiper1.png" alt="">
+                                <p>为上千家企业提供财税服务</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/three_swiper2.png" alt="">
+                                <p>合法合理，无隐性消费</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/three_swiper4.png" alt="">
+                                <p>多地园区合作，提供更多选择</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/three_swiper5.png" alt="">
+                                <p>高效税筹合规保障</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/three_swiper6.png" alt="">
+                                <p>一站式服务，无需操心</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/three_swiper3.png" alt="">
+                                <p>14年行业深耕经验</p>
+                            </div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <!--                        <div class="swiper-pagination"></div>-->
+                        <!-- <div class="button">
+                            <div class="swiper-button-prev swiper-button-black"></div>
+                            <div class="swiper-button-next swiper-button-black"></div></div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+       
+        </div>
+        <!-- 合作流程 -->
+        <div class="process">
+            <div class="reasonHead">
+                合作流程
+                <span>BURDEN</span>
+            </div>
+            <div class="processCont">
+                <ul>
+                    <div class="blueBg"></div>
+                    <li>
+                        <img src="images/processContImg1.png" alt="">
+                        <span>在线咨询客服</span>
+                    </li>
+                    <li>
+                        <img src="images/processContImg2.png" alt="">
+                        <span>签署合作协议</span>
+                    </li>
+                </ul>
+                <ul>
+                    <div class="blueBg"></div>
+                    <li>
+                        <img src="images/processContImg3.png" alt="">
+                        <span>确定筹划方案</span>
+                    </li>
+                    <li>
+                        <img src="images/processContImg4.png" alt="">
+                        <span>落地操作执行</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 脚 -->
+        <div class="footer"></div>
+    </div>
+
+
+</body>
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/rem.js"></script>
+<script src="js/common.js"></script>
+<script src="js/daikai.js"></script>
+<script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        // autoplay:true,
+        slidesPerView: 3,
+        // spaceBetween: -70,
+        spaceBetween: 20,
+        centeredSlides: true,
+        centeredSlidesBounds: true,
+        loop: true,
+        // pagination: {
+        //     el: '.swiper-pagination',
+        //     clickable: true,
+        // },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        }
+    });
+
+    function getUrlParam(name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); //构造一个含有目标参数的正则表达式对象
+        var r = window.location.search.substr(1).match(reg);  //匹配目标参数
+        if (r != null) return unescape(r[2]); return null; //返回参数值
+    }
+    var id= getUrlParam('id')
+    // console.log(id)
+    // banner
+    $.post(localStorage.getItem('http') + 'banner/get_list',{nav_id:id},function(res){
+        // console.log(res.data);
+        var html= '';
+        html +='<img src="'+ res.data[0].phone_pic_url +'" alt="">'
+        $('.daikai_bg').html(html);
+    })
+
+</script>
+</html>

@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="box">
+        <!-- 头 -->
+        <div class="header"></div>
+        <!-- 轮播图 -->
+        <div class="rotation">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- <div class="swiper-slide">
+                        <img src="images/finPlan_bg.png" alt="">
+                        <div class="ratationCont">
+                            <span>灵活用工</span>
+                            <div class="line1"></div>
+                            <p>报酬/工资代发 税务筹划</p>
+                            <div class="btnBox11">
+                                <a href="">
+                                    <button type="button">查看详情</button>
+                                </a>
+                                
+                                <img src="images/leftArrow.png" alt="">
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>            
+        </div>
+        <!-- 商事服务 -->
+        <div class="comSerBox">
+            <div class="solveBoxHead">
+                商事服务
+            </div>
+            <div class="lineBox">
+                <div class="line"></div>
+            </div>
+            <div class="solveBoxText">Commercial services</div>
+            <div class="comSerBoxCont"></div>
+        </div>
+        <!-- 快速注册公司会员通道 -->
+        <div class="quickRegBox">
+            <div class="quickRegHead">
+                <span>快速注册公司会员通道</span>
+                <img src="images/quickRegHead_icon.png" alt="">
+            </div>
+            <div class="quickRegCont">
+                <ul>
+                    <li>
+                        <span>姓名</span>
+                        <input type="text" placeholder="如：孙女士 杨先生" id="nameI">
+                    </li>
+                    <li>
+                        <span>联系方式</span>
+                        <input type="number" placeholder="请输入您的联系方式" id="phoneI">
+                    </li>
+                    <li class="liAddress">
+                        <span>注册区域</span>
+                        <input type="text" placeholder="如：天津权鹏宝利科技有限公司" id="areaI">
+                        <div class="radioBox radioBox1">
+                            <div class="input-radio">
+                                <!-- 选中状态添加 checked 属性 -->
+                                 <input type="radio" name="address" value="1" checked />
+                                 <label for="apple">有注册地址</label>
+                                 <div class="borderB borderBAdd">✔</div>
+                            </div>
+                            <div class="input-radio">
+                                  <input type="radio" value="0" name="address" />
+                                  <label for="banana">无注册地址</label>
+                                  <div class="borderB">✔</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="liAddress">
+                        <span>公司名称</span>
+                        <input type="text" placeholder="如：天津权鹏宝利科技有限公司" id="company_nameI">
+                        <div class="radioBox radioBox2">
+                            <div class="input-radio">
+                                <!-- 选中状态添加 checked 属性 -->
+                                 <input type="radio" name="checkName" value="1" checked />
+                                 <label for="apple">已核名</label>
+                                 <div class="borderB borderBAdd">✔</div>
+                            </div>
+                            <div class="input-radio">
+                                  <input type="radio" name="checkName" value="0" />
+                                  <label for="banana">未核名</label>
+                                  <div class="borderB">✔</div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <!-- 马上联系我 -->
+                <div class="contactB">马上联系我</div>
+            </div>
+            <div class="optiRec">
+                <div class="optiRecHe">
+                    <span class="optiRecHeAdd">精选优品</span>
+                    <span>为您推荐</span>
+                </div>
+                <div class="optiRecCo">
+                    <div class="optiRecCoUl1">
+                        <ul>
+                            
+                        </ul>
+                    </div>
+                    <div class="optiRecCoUl2">
+                        <ul>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="optiRecBtn">咨询客服</div>
+            </div>
+        </div>
+        <!-- 税务筹划 -->
+        <div class="taxPlan">
+            <div class="solveBoxHead">
+                税务筹划
+            </div>
+            <div class="lineBox">
+                <div class="line"></div>
+            </div>
+            <div class="solveBoxText">fiscal and tax services</div>
+            <div class="taxPlanCont">
+                <ul>
+                    <!-- <li class="taxPlanLi1">
+                        <span>个税核定筹划</span>
+                        <p>合规解决抵扣难题，高效降低高管个税。</p>
+                        <div class="btnBox" onclick="jumpIndividual()">
+                            <button type="button">了解更多</button>
+                            <img src="images/leftArrow.png" alt="">
+                        </div>
+                    </li>
+                    <li class="taxPlanLi2">
+                        <span>增值税返税筹划</span>
+                        <p>百万利润万元税，提升企业竞争力。</p>
+                        <div class="btnBox">
+                            <button type="button">了解更多</button>
+                            <img src="images/leftArrow.png" alt="">
+                        </div>
+                    </li>
+                    <li class="taxPlanLi3">
+                        <span>企业所得税筹划</span>
+                        <p>合理帮助企业降低企业所得税税费，减轻企业税收负担。</p>
+                        <div class="btnBox">
+                            <button type="button">了解更多</button>
+                            <img src="images/leftArrow.png" alt="">
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+        <!-- 权友手机 -->
+        <div class="qyPhone">
+            <div class="solveBoxHead">
+                权友手机
+            </div>
+            <div class="lineBox">
+                <div class="line"></div>
+            </div>
+            <div class="solveBoxText">为您解决以下问题</div>
+            <div class="qyPhoneCo">
+                <ul>
+                    <li>
+                        <img src="images/qyPhoneCoImg1.png" alt="">
+                        <span>销售<br/>做私单</span>
+                    </li>
+                    <li>
+                        <img src="images/qyPhoneCoImg2.png" alt="">
+                        <span>客户资源<br/>流失</span>
+                    </li>
+                    <li>
+                        <img src="images/qyPhoneCoImg3.png" alt="">
+                        <span>过度承诺<br/>客户</span>
+                    </li>
+                    <li>
+                        <img src="images/qyPhoneCoImg4.png" alt="">
+                        <span>数据管理<br/>混乱</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="qyPhoneCoo">
+                <div class="qyPhoneCooHe">
+                    <div class="qyPhoneCooImgB">
+                        <img src="images/qyPhoneCooImgBImg.png" alt="">
+                    </div>
+                    <span>- 核心功能 -</span>
+                </div>
+                <div class="qyPhoneCooCo">
+                    <ul class="qyPhoneCooUl1">
+                        <li>
+                            <img src="images/qyPhoneCooCoImg1.png" alt="">
+                            <span>微信短信监控</span>
+                        </li>
+                        <li>
+                            <img src="images/qyPhoneCooCoImg2.png" alt="">
+                            <span>标签分组</span>
+                        </li>
+                        <li>
+                            <img src="images/qyPhoneCooCoImg3.png" alt="">
+                            <span>敏感行为预警</span>
+                        </li>
+                    </ul>
+                    <ul class="qyPhoneCooUl2">
+                        <li>
+                            <img src="images/qyPhoneCooCoImg4.png" alt="">
+                            <span>通话录音</span>
+                        </li>
+                        <li>
+                            <img src="images/qyPhoneCooCoImg5.png" alt="">
+                            <span>智能统计报表</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- 权友用工为您解决 -->
+        <div class="solveBox">
+            <div class="solveBoxHead">
+                权友用工为您解决
+            </div>
+            <div class="lineBox">
+                <div class="line"></div>
+            </div>
+            <div class="solveBoxText">flexible  employment</div>
+            <div class="solveBoxCont">
+                <ul>
+                    <li>
+                        <div class="solveBoxBor borderBox1"></div>
+                        <span>企业用工成本高</span>
+                    </li>
+                    <li>
+                        <div class="solveBoxBor borderBox2"></div>
+                        <span>临时用工合规难</span>
+                    </li>
+                    <li>
+                        <div class="solveBoxBor borderBox3"></div>
+                        <span>劳务用工无发票</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 平台展示 -->
+        <div class="exhiBox">
+            <div class="solveBoxHead">
+                平台展示
+            </div>
+            <div class="lineBox">
+                <div class="line"></div>
+            </div>
+            <div class="solveBoxText">Platform display</div>
+            <div class="exhiBoxCont">
+                <div class="dashedline"></div>
+                <ul>
+                    <li class="exhiBoxContAdd">
+                        <div class="exhiBoxBor">
+                            <img class="exhiBoxBor1" src="images/exhiBoxBor1_sec.png" alt="">
+                        </div>
+                        <span>上传/下载</span>
+                    </li>
+                    <li class="exhiBoxContAdd">
+                        <div class="exhiBoxBor">
+                            <img class="exhiBoxBor2" src="images/exhiBoxBor2_sec.png" alt="">
+                        </div>
+                        <span>表格查询</span>
+                    </li>
+                    <li class="exhiBoxContAdd">
+                        <div class="exhiBoxBor">
+                            <img class="exhiBoxBor3" src="images/exhiBoxBor3_sec.png" alt="">
+                        </div>
+                        <span>批量打款</span>
+                    </li>
+                    <li class="exhiBoxContAdd">
+                        <div class="exhiBoxBor">
+                            <img class="exhiBoxBor4" src="images/exhiBoxBor4_sec.png" alt="">
+                        </div>
+                        <span>发票申请</span>
+                    </li>
+                    <li class="exhiBoxContAdd">
+                        <div class="exhiBoxBor">
+                            <img class="exhiBoxBor5" src="images/exhiBoxBor5_sec.png" alt="">
+                        </div>
+                        <span>电子凭证</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="exhiRota">
+                <img class="exhiRota1" src="images/exhiRota1Img.png" alt="">
+                <!-- <img class="exhiRota2" src="images/exhiRota_img1.png" alt="">
+                <img class="exhiRota3" src="images/exhiRota_img1.png" alt="">
+                <img class="exhiRota4" src="images/exhiRota_img1.png" alt="">
+                <img class="exhiRota5" src="images/exhiRota_img1.png" alt=""> -->
+            </div>
+        </div>
+        <!-- 业务流程 -->
+        <div class="operFlow">
+            <div class="operFlowHead" style="color: #ffffff">
+                业务流程 
+            </div>
+            <div class="lineBox">
+                <div class="line"></div>
+            </div>
+            <div class="operFlowText" style="color: #ffffff">operation flow</div>
+            <div class="operFlowImgBox">
+                <img src="images/operFlowImg.png" alt="">
+            </div>
+            <div class="operFlowCont">
+                <ul>
+                    <li>
+                        <img src="images/operFlowCont_icon1.png" alt="">
+                        <span>平台与企业签订相关协议，通过平台进行资金的结算。</span>
+                    </li>
+                    <li>
+                        <img src="images/operFlowCont_icon2.png" alt="">
+                        <span>企业通过平台对自由职业者发放劳动所得，平台自动代扣个人所得税到税务局。</span>
+                    </li>
+                    <li>
+                        <img src="images/operFlowCont_icon3.png" alt="">
+                        <span>自由职业者通过平台获得合理合法的税后所得以及税务局开具的完税证明。</span>
+                    </li>
+                    <li>
+                        <img src="images/operFlowCont_icon4.png" alt="">
+                        <span>平台开具增值税发票反馈到企业。</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 发展历程 -->
+        <div class="develop">
+            <div class="operFlowHead">
+                发展历程 
+            </div>
+            <div class="lineBox">
+                <div class="line"></div>
+            </div>
+            <div class="operFlowText">development history</div>
+            <div class="developCont">
+                <div class="verLine"></div>
+                <ul>
+                    <!-- <li>
+                        <div class="develop1">
+                            <div class="develop11">2006</div>
+                            <div class="develop12">
+                                <img src="images/sunlight_icon.png" alt="">
+                            </div>
+                            <div class="develop13">
+                                <span>权鹏诞生</span>
+                                <p>权鹏集团前身凤来津健康产业有限责任公司成立。</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="develop1">
+                            <div class="develop11">2006-2012</div>
+                            <div class="develop12">
+                                <img src="images/sunlight_icon.png" alt="">
+                            </div>
+                            <div class="develop13">
+                                <span>崭露头角</span>
+                                <p>凭借着不畏艰辛的创业精神和先人一步的服务理念，在津已是小有名气。</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="develop1">
+                            <div class="develop11">2012-2017</div>
+                            <div class="develop12">
+                                <img src="images/sunlight_icon.png" alt="">
+                            </div>
+                            <div class="develop13">
+                                <span>韬光养晦</span>
+                                <p>在四位一体的集团化运营模式和构建完善的企业服务生态圈的战略方针的基础上，“制定”了行业服务标准，也在商市服务中占据举足轻重的地位。</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="develop1">
+                            <div class="develop11">2018-至今</div>
+                            <div class="develop12">
+                                <img src="images/sunlight_icon.png" alt="">
+                            </div>
+                            <div class="develop13">
+                                <span>扬帆起航</span>
+                                <p>集团更名为权鹏集团，斥巨资打造企服生态圈体系，配搭更为全面的服务类别，权鹏集团已逐渐成为国际企业服务运营商。</p>
+                            </div>
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+            <div class="moreBtn">
+                <a href="AboutUs.html"><span>查看更多 ></span></a>
+            </div>
+        </div>
+        <!-- 合作伙伴 -->
+        <div class="cooper">
+            <div class="solveBoxHead">
+                合作伙伴
+            </div>
+            <div class="lineBox">
+                <div class="line"></div>
+            </div>
+            <div class="solveBoxText">cooperative partner</div>
+            <div class="cooperCont">
+                
+            </div>
+        </div>
+        <!-- 脚 -->
+        <div class="footer"></div>
+    </div>
+</body>
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/rem.js"></script>
+<script src="js/common.js"></script>
+<script src="js/index.js"></script>
+<script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script>
+    // banner
+    $.post(localStorage.getItem('http') + 'banner/get_list',{nav_id:1},function(res){
+        // console.log(res.data);
+        var html= '';
+        $.each(res.data,function(k,v){
+            html +='<div class="swiper-slide">'
+            html +='<img src="'+ v.phone_pic_url +'" alt="">'
+            html +='<div class="ratationCont">'
+            html +='<span>'+ v.title +'</span>'
+            html +='<div class="line1"></div>'
+            html +='<p>'+ v.desc.replace(" ","<br/>") +'</p>'
+            html +='<div class="btnBox11">'
+            html +='<a target="blank" href="'+ v.link +'">'
+            html +='<button type="button">查看详情</button>'
+            html +='</a>'
+            html +='<img src="images/leftArrow.png" alt="">'
+            html +='</div>'
+            html +='</div>'
+            html +='</div>'
+        })
+        $('.swiper-wrapper').html(html);
+    })
+    // 获取税务筹划
+    $.post(localStorage.getItem('http') + 'module/get_home_tax',{},function(res) {
+        // console.log(res.data)
+        var html= '';
+        $.each(res.data,function(k,v) {
+            html += '<li class="taxPlanLi1">'
+            html += '<span>'+ v.title +'</span>'
+            html += '<p>'+ v.info +'</p>'
+            html += '<div class="btnBox" onclick="window.open('+ v.link +')">'
+            html += '<a target="_blank" href="'+ v.link +'"><button type="button">了解更多</button></a>'
+            html += '<img src="images/leftArrow.png" alt="">'
+            html += '</div>'
+            html += '</li>'
+        })
+        $('.taxPlanCont ul').html(html);
+    })
+    // 获取发展历程
+    $.post(localStorage.getItem('http') + 'module/get_home_timeline',{},function(res){
+        // console.log(res.data);
+        var html= '';
+        $.each(res.data,function(k,v){
+            var etime = v.etime,
+                time;
+            //非0 非空 非false 非null
+            if(etime){
+                time = v.stime + "-" + etime;
+            }else{
+                time = v.stime;
+            }
+
+            html += '<li>'
+            html += '<div class="develop1">'
+            html += '<div class="develop11">'+ time + '</div>';
+            html += '<div class="develop12">'
+            html += '<img src="images/sunlight_icon.png" alt="">'
+            html += '</div>'
+            html += '<div class="develop13">'
+            html += '<span>'+ v.name +'</span>'
+            html += '<p>'+ v.info +'</p>'
+            html += '</div>'
+            html += '</div>'
+            html += '</li>'
+        })
+        $('.developCont ul').html(html);
+        
+    })
+    // 合作伙伴
+    $.post(localStorage.getItem('http') + 'module/get_home_friend',{},function(res){
+        // console.log(res.data);
+        var html= '';
+        $.each(res.data,function(k,v){
+            var img = v.pic_url
+            html += '<a target="_blank" href="'+ v.link +'"><img src="'+img+'" alt=""></a>'
+        })
+        $('.cooperCont').html(html);
+    })
+
+
+
+
+
+
+
+
+    var swiper = new Swiper('.swiper-container',{
+        pagination: '.swiper-pagination',
+        loop:true,
+        speed:500,
+        autoplay : {
+            delay: 3000,
+            disableOnInteraction : false,
+        },
+        observer: true,//调完接口不能翻页解决方法，修改swiper自己或子元素时，自动初始化swiper
+        observeParents: true,//调完接口不能翻页解决方法，修改swiper的父元素时，自动初始化swiper
+    });
+    
+    // 注册区域
+    $('.input-radio input').click(function(){
+        $(this).parent().children('.borderB').addClass('borderBAdd');
+        $(this).parent().siblings().children('.borderB').removeClass('borderBAdd');
+    })
+    // 精选推荐
+    $('.optiRecHe span').click(function(){
+        $(this).addClass('optiRecHeAdd').siblings().removeClass('optiRecHeAdd');
+        if($(this).index() == 0){
+            $('.optiRecCoUl1').show();
+            $('.optiRecCoUl2').hide();
+        }else{
+            $('.optiRecCoUl1').hide();
+            $('.optiRecCoUl2').show();
+        }
+    })
+
+    // 马上联系我
+    $('.contactB').click(function(){
+        $.post(localStorage.getItem('http') + 'module/fast_reg',{
+            name: $('#nameI').val(),
+            phone: $('#phoneI').val(),
+            area: $('#areaI').val(),
+            company_name: $('#company_nameI').val(),
+            is_reg_address: $('.radioBox1 input:radio[name="address"]:checked').val(),
+            is_check: $('.radioBox2 input:radio[name="checkName"]:checked').val()
+        },function(res){
+            console.log(res.data);
+            alert(res.msg);
+            if(res.code == 1){
+                window.location.reload();
+            }
+        })
+    })
+    // 咨询客服
+    $('.optiRecBtn').click(function(){
+        window.location.href="https://dft.zoosnet.net/LR/Chatpre.aspx?id=DFT45969991&lng=cn";
+    })
+
+    // 商事服务
+    $.post(localStorage.getItem('http') + 'module/get_home_biz_ser',{},function(res){
+        console.log(res.data);
+        var html= '';
+        html+='<div class="comSerBoxLe">'
+            html+='<ul>'
+            html+='<a href="'+ res.data[0].link +'">'
+            html+='<li>'
+            html+='<span>'+ res.data[0].title +'</span>'
+            html+='<div class="line_blue"></div>'
+            html+='<div class="comSerBoxLeImg1">'
+            html+='<img src="'+ res.data[0].pic_url +'" alt="">'
+            html+='</div>'
+            html+='</li>'
+            html+='</a>'
+            html+='<a href="'+ res.data[1].link +'">'
+            html+='<li>'
+            html+='<span>'+ res.data[1].title +'</span>'
+            html+='<div class="line_blue"></div>'
+            html+='<div class="comSerBoxLeImg2">'
+            html+='<img src="'+ res.data[1].pic_url +'" alt="">'
+            html+='</div>'
+            html+='</li>'
+            html+='</a>'
+            html+='</ul>'
+        html+='</div>'
+        html+='<div class="comSerBoxRi">'
+            html+='<ul>'
+            html+='<a href="'+ res.data[2].link +'">'
+            html+='<li>'
+            html+='<span>'+ res.data[2].title +'</span>'
+            html+='<div class="line_blue"></div>'
+            html+='<div class="comSerBoxRiImg1">'
+            html+='<img src="'+ res.data[2].pic_url +'" alt="">'
+            html+='</div>'
+            html+='</li>'
+            html+='</a>'
+            html+='<a href="'+ res.data[3].link +'">'
+            html+='<li>'
+            html+='<span>'+ res.data[3].title +'</span>'
+            html+='<div class="line_blue"></div>'
+            html+='<div class="comSerBoxRiImg2">'
+            html+='<img src="'+ res.data[3].pic_url +'" alt="">'
+            html+='</div>'
+            html+='</li>'
+            html+='</a>'
+            html+='<a href="'+ res.data[4].link +'">'
+            html+='<li>'
+            html+='<span>'+ res.data[4].title +'</span>'
+            html+='<div class="line_blue"></div>'
+            html+='<div class="comSerBoxRiImg3">'
+            html+='<img src="'+ res.data[4].pic_url +'" alt="">'
+            html+='</div>'
+            html+='</li>'
+            html+='</a>'
+            html+='</ul>'
+        html+='</div>'
+
+        $('.comSerBoxCont').html(html);
+
+    })
+
+    // 精选优品
+    $.post(localStorage.getItem('http') + 'module/get_home_choose',{},function(res){
+        console.log(res.data);
+        var html= ''
+        $.each(res.data,function(k,v) {
+            html+= '<a href="'+ v.link +'">'
+            html += '<li>'
+                html += '<img src="'+ v.pic_url +'" alt="">'
+                html += '<span>'+ v.title +'</span>'
+            html += '</li>'
+            html += '</a>'
+        })
+        
+        $('.optiRecCoUl1 ul').html(html);
+    })
+    //为您推荐
+    $.post(localStorage.getItem('http') + 'module/get_home_recommend',{},function(res){
+        console.log(res.data);
+        var html= ''
+        $.each(res.data,function(k,v) {
+            html+= '<a href="'+ v.link +'">'
+            html += '<li>'
+                html += '<img src="'+ v.pic_url +'" alt="">'
+                html += '<span>'+ v.title +'</span>'
+            html += '</li>'
+            html += '</a>'
+        })
+        
+        $('.optiRecCoUl2 ul').html(html);
+    })
+
+	
+
+</script>
+</html>

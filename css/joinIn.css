@@ -1,0 +1,718 @@
+.cont_he{
+    width: 100%;
+}
+.head_he img{
+    object-fit: cover;
+}
+.head_co{
+    position: relative;
+    width: 100%;
+    padding: 0.7rem 0.32rem 0;
+    box-sizing: border-box;
+}
+.psoi_b{
+    position: absolute;
+    left: -1.2rem;
+    top: 0.1rem;
+    width: 2.4rem;
+    height: 2.4rem;
+    background: linear-gradient(227deg, #3675F8 0%, #B2CCFF 100%);
+    opacity: 0.6;
+    border-radius: 50%;
+}
+.head_co_1,.head_co_2,.head_co_3{
+    position: relative;
+    margin-bottom: 0.4rem;
+}
+.head_co_3 img{
+    position: absolute;
+    left: 0.3rem;
+    top: 0.21rem;
+    width: 0.42rem;
+    height: 0.38rem;
+    z-index: 999;
+}
+.head_co_1 img{
+    position: absolute;
+    left: 0.3rem;
+    top: 0.2rem;
+    width: 0.42rem;
+    height: 0.42rem;
+}
+.head_co_2 img{
+    position: absolute;
+    left: 0.3rem;
+    top: 0.2rem;
+    width: 0.32rem;
+    height: 0.42rem;
+}
+.layui-inline{
+    width: 100%;
+}
+.head_co_1 input,.head_co_2 input,.head_co_3 select{
+    width: 100%;
+    height: 0.8rem;
+    background: #FFFFFF;
+    border: 2px solid #3C8AF9;
+    box-sizing: border-box;
+    font-size: 0.26rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    border-radius: 0.1rem;
+    padding: 0 0.9rem;
+    box-sizing: border-box;
+    outline: none;
+}
+.head_co_3 select{
+    padding: 0 0.8rem;
+    -webkit-appearance:none;
+    -moz-appearance: none; //通过padding-left的值让文字居中
+}
+
+.head_co_3:after{
+    content: "";
+    width: 0.3rem;
+    height: 0.18rem;
+    background: url('../images/select_sj_icon.png') no-repeat center;
+    position: absolute;
+    right: 20px;
+    top: 45%;
+    pointer-events: none;
+}
+
+.head_co button{
+    width: 100%;
+    height: 0.8rem;
+    background: linear-gradient(94deg, #7997FF 0%, #1446ED 100%);
+    font-size: 0.3rem;
+    font-family: PingFang SC;
+    font-weight: 400;
+    color: #FFFFFF;
+    border: 0;
+    outline: none;
+    border-radius: 0.1rem;
+}
+.problem{
+    width: 100%;
+    padding: 0.4rem 0.32rem 0.7rem;
+    box-sizing: border-box;
+}
+.problem_he{
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.problem_he span{
+    font-size: 0.7rem;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #F7F7F7;
+    text-transform: uppercase;
+}
+.problem_he .title{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 0.36rem;
+    font-family: PingFang SC;
+    font-weight: 500;
+    color: #333333;
+}
+.problem_co{
+    margin-top: 0.4rem;
+    width: 100%;
+}
+.problem_co ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.problem_co ul li:nth-child(2n){
+    margin-left: 0.1rem;
+}
+.problem_co ul li{
+    width: 49%;
+    height: 3.6rem;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 48, 107, 0.1411764705882353);
+    margin-bottom: 0.1rem;
+    padding:  0.3rem 0.1rem 0.2rem;
+    box-sizing: border-box;
+}
+.problem_co ul li>img{
+    width: 100%;
+}
+.problem_co_1 p:first-child{
+    margin-top: 0.32rem;
+    font-size: 0.26rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #333333;
+}
+.problem_co_1 p:first-child img{
+    margin-right: 0.25rem;
+    width: 0.42rem;
+    height: 0.42rem;
+}
+.problem_co_1 p:last-child{
+    margin-top: 0.24rem;
+    font-size: 0.24rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #7E94BB;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+}
+.add_b{
+    width: 100%;
+    font-size: 0.2rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    line-height: 0.4rem;
+    color: #7E94BB;
+    padding: 0.3rem 0.35rem;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #DBE1EA;
+    text-align: center;
+}
+.problem button{
+    margin-top: 0.4rem;
+    width: 100%;
+    height: 0.8rem;
+    background: linear-gradient(94deg, #7997FF 0%, #1446ED 100%);
+    font-size: 0.3rem;
+    font-family: PingFang SC;
+    font-weight: 400;
+    color: #FFFFFF;
+    border: 0;
+    outline: none;
+    border-radius: 0.1rem;
+}
+.whyJoin {
+    width: 100%;
+    background: url("../images/whyJoin_bg.png") no-repeat;
+    background-size: 100% 100%;
+    padding: 0.4rem 0;
+    box-sizing: border-box;
+}
+.whyJoin_he{
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.whyJoin_he span{
+    font-size: 0.7rem;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    opacity: 0.15;
+    color: #ECECEC;
+    text-transform: uppercase;
+}
+.whyJoin_he .title{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 0.36rem;
+    font-family: PingFang SC;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.whyJoin_co{
+    margin-top: 0.4rem;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(56, 175, 252, 0) 0%, rgba(35, 166, 250, 0.39) 48%, rgba(14, 157, 248, 0) 100%);
+    box-shadow: 0px 0px 30px rgba(0, 39, 118, 0.16);
+    border-radius: 10px;
+    padding:  0.4rem 0.48rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.whyJoin_le{
+    position: relative;
+    width: 2.4rem;
+    height: 2.4rem;
+}
+.circular_b{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -0.95rem;
+    margin-top: -0.95rem;
+    width: 1.9rem;
+    height: 1.9rem;
+    border: 1px solid #FEE25C;
+    border-radius: 50%;
+    z-index: 1;
+}
+.circular_b1{
+    border: 1px solid #54EAD3!important;
+}
+.circular {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -0.9rem;
+    margin-top: -0.9rem;
+    z-index: 2;
+    width: 1.8rem;
+    height: 1.8rem;
+    background: linear-gradient(145deg, #FED649 0%, #F6FE01 100%, #F6FF00 100%);
+    border-radius: 50%;
+    font-size: 0.26rem;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    line-height: 0.5rem;
+    color: #3781EE;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circular1{
+    background: linear-gradient(139deg, #42E5E1 0%, #A1FF97 100%) !important;
+}
+.dian1{
+    position: absolute;
+    left: -0.06rem;
+    top: 0.6rem;
+    width: 0.05rem;
+    height: 0.05rem;
+    background: #FDF5AF;
+    border-radius: 50%;
+}
+.dian2{
+    position: absolute;
+    left: -0.01rem;
+    top: 1rem;
+    width: 0.07rem;
+    height: 0.07rem;
+    background: #FDF5AF;
+    border-radius: 50%;
+}
+.dian3{
+    position: absolute;
+    left: 0.1rem;
+    bottom: 0.1rem;
+    width: 0.14rem;
+    height: 0.14rem;
+    background: #FDF5AF;
+    border-radius: 50%;
+}
+.dian4{
+    position: absolute;
+    right: 0.3rem;
+    top: 0.4rem;
+    width: 0.04rem;
+    height: 0.04rem;
+    background: #FDF5AF;
+    border-radius: 50%;
+}
+.dian5{
+    position: absolute;
+    right: 0.1rem;
+    top: 0.6rem;
+    width: 0.07rem;
+    height: 0.07rem;
+    background: #FDF5AF;
+    border-radius: 50%;
+}
+.dian6{
+    background: #4DE8D8!important;
+}
+.animation {
+    -webkit-animation:twinkling 2.1s infinite ease-in-out;
+    animation:twinkling 2.3s infinite ease-in-out;
+    -webkit-animation-fill-mode:both;
+    animation-fill-mode:both;
+}
+.animation2 {
+    -webkit-animation:twinkling 2.5s infinite ease-in-out;
+    animation:twinkling 2.8s infinite ease-in-out;
+    -webkit-animation-fill-mode:both;
+    animation-fill-mode:both;
+}
+@-webkit-keyframes twinkling {
+    0% {
+        opacity:0.2;
+        filter:alpha(opacity=20);
+        -webkit-transform:scale(1);
+    }
+    50% {
+        opacity:0.5;
+        filter:alpha(opacity=50);
+        -webkit-transform:scale(1.12);
+    }
+    100% {
+        opacity:0.2;
+        filter:alpha(opacity=20);
+        -webkit-transform:scale(1);
+    }
+}@keyframes twinkling {
+     0% {
+         opacity:0.4;
+         filter: alpha(opacity=20);
+         -webkit-transform: scale(1);
+     }
+     50% {
+         opacity:0.9;
+         filter: alpha(opacity=50);
+         -webkit-transform: scale(1.12);
+     }
+     100% {
+         opacity:0.4;
+         filter: alpha(opacity=20);
+         -webkit-transform: scale(1);
+     }
+ }
+.whyJoin_ri {
+    flex: 1;
+    margin-left: 0.24rem;
+}
+.whyJoin_ri ul{
+    padding: 0.2rem 0 0 0;
+}
+.whyJoin_ri ul li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    line-height: 0.6rem;
+}
+.whyJoin_ri img{
+    margin-right: 0.1rem;
+    width: 0.3rem;
+    height: 0.3rem;
+}
+.whyJoin_ri p{
+    font-size: 0.24rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.btn_b{
+    width: 100%;
+    padding: 0.4rem 0.32rem 0;
+    box-sizing: border-box;
+}
+.btn_b button{
+    width: 100%;
+    height: 0.8rem;
+    background: rgba(0,0,0,0);
+    font-size: 0.3rem;
+    font-family: PingFang SC;
+    font-weight: 400;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    outline: none;
+    border-radius: 0.1rem;
+}
+.successful{
+    width: 100%;
+    padding: 0.4rem 0.32rem;
+    box-sizing: border-box;
+}
+.successful_he{
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.successful_he span{
+    font-size: 0.7rem;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #F7F7F7;
+    text-transform: uppercase;
+}
+.successful_he .title{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 0.36rem;
+    font-family: PingFang SC;
+    font-weight: 500;
+    color: #333333;
+}
+.successful_co{
+    margin-top: 0.4rem;
+    width: 100%;
+}
+.successful_co ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.successful_co ul li{
+    margin-top: 0.3rem;
+    width: 48%;
+    height: 2.9rem;
+    background: url("../images/taxPlan_bg1.png") no-repeat;
+    background-size: 100% 100%;
+    padding: 0.5rem 0.2rem 0.2rem;
+    box-sizing: border-box;
+}
+.successful_co ul li:first-child{
+    margin-top: 0;
+}
+.successful_co ul li:nth-child(2){
+    margin-top: 0;
+}
+.successful_co span{
+    font-size: 0.26rem;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 0.35rem;
+}
+.successful_co p{
+    margin-top: 0.2rem;
+    font-size: 0.24rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    line-height: 0.5rem;
+    color: #FFFFFF;
+}
+.process{
+    width: 100%;
+    background: #F3F7FF;
+    padding: 0.4rem 0;
+    box-sizing: border-box;
+}
+.process_he{
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.process_he span{
+    font-size: 0.7rem;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #ECECEC;
+    text-transform: uppercase;
+}
+.process_he .title{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 0.36rem;
+    font-family: PingFang SC;
+    font-weight: 500;
+    color: #333333;
+}
+.process_co{
+    margin-top: 0.5rem;
+    width: 100%;
+    padding: 0 0.6rem;
+    box-sizing: border-box;
+}
+.process_co ul{
+    position: relative;
+    width: 100%;
+}
+.process_co ul li{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.7rem;
+}
+.process_co ul li:first-child{
+    margin-top: 0;
+}
+.process_le{
+    width: 1rem;
+    font-size: 0.24rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #333333;
+    line-height: 0.3rem;
+    text-align: center;
+}
+.process_le img{
+    width: 0.8rem;
+    height: 0.8rem;
+}
+.process_le span{
+    display: block;
+    width: 100%;
+    margin-top: 0.1rem;
+}
+.process_ri{
+    width: 3.2rem;
+    font-size: 0.24rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    line-height: 0.4rem;
+    color: #999999;
+}
+.line_b{
+    position: absolute;
+    left: 1.43rem;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    padding: 0.5rem 0;
+    box-sizing: border-box;
+}
+.line_bb {
+    position: relative;
+    width: 1px;
+    height: 100%;
+    background-color: #315DE6;
+}
+.line_b_ball_1{
+    position: absolute;
+    width: 0.28rem;
+    height: 0.28rem;
+    left: 1.3rem;
+}
+.line_b_ball_2{
+    position: absolute;
+    width: 0.28rem;
+    height: 0.28rem;
+    left: 1.3rem;
+}
+.line_b_ball_3{
+    position: absolute;
+    width: 0.28rem;
+    height: 0.28rem;
+    left: 1.3rem;
+}
+.line_b_ball_4{
+    position: absolute;
+    width: 0.28rem;
+    height: 0.28rem;
+    left: 1.3rem;
+}
+.btn_b_1{
+    width: 100%;
+    padding: 0.4rem 0.32rem 0;
+    box-sizing: border-box;
+}
+.btn_b_1 button{
+    width: 100%;
+    height: 0.8rem;
+    background: linear-gradient(94deg, #7997FF 0%, #1446ED 100%);
+    font-size: 0.3rem;
+    font-family: PingFang SC;
+    font-weight: 400;
+    color: #FFFFFF;
+    border: 0;
+    outline: none;
+    border-radius: 0.1rem;
+}
+.btn_b_1 span{
+    display: block;
+    margin-top: 0.2rem;
+    width: 100%;
+    text-align: center;
+    font-size: 0.24rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #666666;
+}
+.honor {
+    position: relative;
+    width: 100%;
+    background: #3463E3;
+    padding: 0.4rem 0 1.5rem;
+    box-sizing: border-box;
+}
+.honor_he{
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.honor_he span{
+    font-size: 0.7rem;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    opacity: 0.15;
+    color: #ECECEC;
+    text-transform: uppercase;
+}
+.honor_he .title{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 0.36rem;
+    font-family: PingFang SC;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.honor_img{
+    width: 100%;
+    text-align: right;
+}
+.honor_img img{
+    width: 2.58rem;
+    height: 1.85rem;
+}
+.honor_co{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1.9rem;
+    background-color: #ffffff;
+}
+.honor_co ul{
+    position: absolute;
+    top: -0.8rem;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+}
+.honor_co ul li{
+    position: relative;
+    text-align: center;
+}
+.honor_co ul li:first-child{
+    width: 1.8rem;
+}
+.honor_co ul li:nth-child(2){
+    width: 3.7rem;
+}
+.honor_co ul li:last-child{
+    width: 1.8rem;
+}
+.honor_co img{
+    width: 100%;
+}
+.honor_co span{
+    position: absolute;
+    left: -10%;
+    bottom: -0.3rem;
+    width: 120%;
+    font-size: 0.14rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #333333;
+}
+
+
+
+
+
+
+
+
+
+
+
+

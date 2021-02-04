@@ -1,0 +1,95 @@
+.flexible_bg{
+    float: left;
+    width: 100%;
+    /* height: 3rem; */
+}
+.flexible_bg img{
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+.cont{
+    float: left;
+    width: 100%;
+    padding: 0.32rem 0.32rem 0.6rem 0.32rem;
+    box-sizing: border-box;
+}
+.noneHav{
+    display: none;
+    text-align: center;
+    float: left;
+    margin-top: 0.6rem;
+    width: 100%;
+}
+.cont a{
+    float: left;
+    width: 100%;
+    margin-bottom: 0.32rem;
+}
+.cont a:last-child{
+    margin-bottom: 0;
+}
+.cont ul{
+    float: left;
+    width: 100%;
+}
+.cont ul li{
+    float: left;
+    width: 100%;
+    height: 1.76rem;
+}
+/* .cont ul li:last-child{
+    margin-bottom: 0;
+} */
+.contLe{
+    position: relative;
+    float: left;
+    width: 3.5rem;
+    height: 1.76rem;
+    padding: 0.16rem 0;
+    box-sizing: border-box;
+}
+.contLe p{
+    float: left;
+    width: 100%;
+    font-size: 0.28rem;
+    color: #333333;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.contLe1{
+    position: absolute;
+    left: 0;
+    bottom: 0.12rem;
+    width: 100%;
+    font-size: 0.22rem;
+    font-family: Roboto;
+    color: #BBBBBB;
+}
+.time{
+    float: left;
+}
+.text{
+    float: right;
+}
+.text span{
+    margin-left: 0.1rem;
+}
+.contRi{
+    float: right;
+    width: 2.12rem;
+    height: 1.76rem;
+}
+.contRi img{
+    float: left;
+    margin-top: 10%;
+    width: 100%;
+    height: 80%;
+    border-radius: 8px;
+    object-fit: cover;
+}

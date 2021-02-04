@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>走进权鹏</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/enterQP.css">
+</head>
+<body>
+    <div class="box">
+        <!-- 头 -->
+        <div class="header"></div>
+        <div class="box1"></div>
+        <!-- 图片 -->
+        <!-- <div class="enterQP_bg">
+            <img src="images/enterQP_bg.png" alt="">
+        </div> -->
+        <!-- 企业介绍 -->
+        <!-- <div class="introduce">
+            <div class="introduceHead">
+                企业介绍
+                <span>SOLVE</span>
+            </div>
+            <div class="introduceCont">
+                权鹏集团创始于2006年，致力于构筑全方位产业集群模式，建立完善的企业生命周期服务。总部坐落于美丽的天津。旗下设立有北京、上海、宁波、深圳、广州、杭州、西宁等分公司。是首批进入企业工商服务的机构之一，有着多年企业服务的经验，为服务于广大客户创造优良基础。
+                权鹏集团以商事服务、财税筹划为基础；资质审批、高新专利为两翼；企业咨询、企业培训为龙头，布局产业集群化战略，坚持以人为本，服务至上的核心价值观，发扬权鹏人勇于开拓不断创新的精神，以“助力企业快速成长”为使命，不断提升集团的服务标准，秉承客户至上的服务理念，推出定制化服务模式。
+                现下我们集团旗下拥有一支业务素质过硬、职业道德优良、人才结构合理的优秀团队，为“打造企业服务国际知名品牌”的集团愿景砥砺前行。
+                权鹏集团是天津滨海交易市场股份公司OTC指定品牌、长期与商务部、天津商务委、天津市金融办以及全市二十多家产业园及招商部保持密切合作关系，曾为天津招商引资、企业投资项目提供产业导向、投资政策、审批程序、财务税务等全方面的咨询服务。在布局整合行业优质资源的同时，深耕企业服务，在多个领域不断探索创新。
+            </div>
+        </div> -->
+
+
+
+        <!-- 脚 -->
+        <div class="footer"></div>
+    </div>
+
+
+</body>
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/rem.js"></script>
+<script src="js/common.js"></script>
+<script src="js/enterQP.js"></script>
+<script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script>
+    $.post(localStorage.getItem('http') + 'module/get_about_us_info',{},function(res){
+        // console.log(res.data);
+        var html= '';
+        $.each(res.data,function(k,v){
+            var img = v.pic_url
+            html += '<div class="enterQP_bg">'
+            html += '<img src="'+ img +'" alt="">'
+            html += '</div>'
+            html += '<div class="introduce">'
+            html += '<div class="introduceHead">'
+            html += ''+ v.title +''
+            html += '<span>'+ v.title_en +'</span>'
+            html += '</div>'
+            html += '<div class="introduceCont">'
+            html += ''+ v.info +''
+            html += '</div>'
+            html += '</div>'
+
+        })
+        $('.box1').html(html);
+
+
+    })
+</script>
+</html>

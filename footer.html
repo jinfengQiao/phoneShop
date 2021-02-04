@@ -1,0 +1,108 @@
+<footer>
+    <!-- <div class="footerTop">
+        <div class="footerTop1">
+            <div class="imgBox">
+                <img src="images/infor_icon.png" alt="">
+            </div>
+            <p>
+                <span>quanpengjt@tjqphb.com</span>
+            </p>
+        </div>
+        <div class="footerTop2">
+            <div class="imgBox">
+                <img src="images/phone_icon.png" alt="">
+            </div>
+            <p>全国免费咨询热线：<span>400-1025-199</span></p>
+        </div>
+        <div class="footerTop3">
+            <div class="imgBox">
+                <img src="images/address_icon.png" alt="">
+            </div>
+            <p>天津市河西区洞庭路与怒江道交口美年广场2-504</p>
+        </div>
+    </div>
+    <div class="footerBot">
+        <p>Copright 版权所有 天津权鹏集团有限公司<br>津ICP备19000810号-1</p>
+        <div class="baianBox">
+            <img src="images/beian_icon.png" alt="">
+            <span>津公网安备 12010302001783号</span>
+        </div>
+    </div> -->
+    
+</footer>
+
+
+<script>
+    var title = document.title,
+        link = location.href,
+        desc = "提供企业发展全周期服务。主要包括：工商服务、财税服务、知识产权、企业咨询。",
+        imgUrl = 'https://m.tjqpjt.com/logo.png';
+    $.post(localStorage.getItem("http") + "wechat/get_jssdk_config",{url: link},function(res){
+        wx.config(res.data);
+
+        wx.ready(function() {
+            wx.checkJsApi({
+                jsApiList: res.data.jsApiList, // 需要检测的JS接口列表，所有JS接口列表见附录2,
+                success: function (res) {
+                    console.log(res);
+                    // 以键值对的形式返回，可用的api值true，不可用为false
+                    // 如：{"checkResult":{"chooseImage":true},"errMsg":"checkJsApi:ok"}
+                }
+            });
+            wx.onMenuShareTimeline({
+                title: "权鹏集团 - " + title, // 分享标题
+                link: link, // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+                imgUrl: imgUrl, // 分享图标
+                success: function () {
+                    // 设置成功
+                    alert("message ok");
+                }
+            });
+
+            wx.onMenuShareAppMessage({
+                title: "权鹏集团 - " + title, // 分享标题
+                desc:desc,
+                link: link, // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+                imgUrl: imgUrl, // 分享图标
+                success: function () {
+                    // 设置成功
+                    alert("timeline ok");
+                }
+            })
+        });
+    });
+    $.post(localStorage.getItem('http') + 'setting/get_detail',{},function(res){
+        // console.log(res.data);
+        var html= '';
+        html +='<div class="footerTop">'
+        html +='<div class="footerTop1">'
+        html +='<div class="imgBox">'
+        html +='<img src="images/infor_icon.png" alt="">'
+        html +='</div>'
+        html +='<p>'
+        html +='<span>'+ res.data.email +'</span>'
+        html +='</p>'
+        html +='</div>'
+        html +='<div class="footerTop2">'
+        html +='<div class="imgBox">'
+        html +='<img src="images/phone_icon.png" alt="">'
+        html +='</div>'
+        html +='<p>全国免费咨询热线：<a href="tel:'+ res.data.phone +'"><span>'+ res.data.phone +'</span></a></p>'
+        html +='</div>'
+        html +='<div class="footerTop3">'
+        html +='<div class="imgBox">'
+        html +='<img src="images/address_icon.png" alt="">'
+        html +='</div>'
+        html +='<p>'+ res.data.address +'</p>'
+        html +='</div>'
+        html +='</div>'
+        html +='<div class="footerBot">'
+        html +='<a href="'+ res.data.icp_url +'"><p>Copright 版权所有 天津权鹏集团有限公司<br>津ICP备'+ res.data.icp_num +'</p></a>'
+        html +='<div class="baianBox">'
+        html +='<img src="images/beian_icon.png" alt="">'
+        html +='<a href="'+ res.data.net_url +'"><span>津公网安备 '+ res.data.net_num +'</span></a>'
+        html +='</div>'
+        html +='</div>'
+        $('footer').html(html);
+    })
+</script>
