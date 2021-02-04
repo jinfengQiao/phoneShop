@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19ec63da-0779-435f-9bc7-2561bc5b4d28" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="19ec63da-0779-435f-9bc7-2561bc5b4d28" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,14 +83,34 @@
       <workItem from="1612148372192" duration="1308000" />
       <workItem from="1612246168084" duration="278000" />
       <workItem from="1612318830206" duration="19506000" />
-      <workItem from="1612399123717" duration="21435000" />
+      <workItem from="1612399123717" duration="22048000" />
     </task>
+    <task id="LOCAL-00001" summary="第一次提交">
+      <created>1612426155639</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612426155639</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第一次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="第一次提交" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="558" y="86" key="CommitChangelistDialog2" timestamp="1612426154105">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="558" y="86" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1612426154105" />
+    <state x="184" y="86" key="DiffContextDialog" timestamp="1612426166376">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612426166376" />
     <state x="771" y="439" key="Github.CreateGistDialog" timestamp="1612425085692">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -109,6 +127,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1612426124450" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1612426170354">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612426170354" />
     <state x="1169" y="293" width="596" height="594" key="find.popup" timestamp="1612331821130">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
