@@ -3,10 +3,11 @@
     width: 100%;
     /* height: 3rem; */
 }
-.flexible_bg img{
+.flexible_bg img {
     float: left;
     width: 100%;
-    height: 100%;
+    /*height: 100%;*/
+    object-fit: cover;
 }
 .cont{
     float: left;

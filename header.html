@@ -30,13 +30,14 @@
 <script>
     $.post(localStorage.getItem('http') + 'nav/get_top_nav',{},function(res){
         var html= '';
+        console.log(res)
         $.each(res.data,function(k,v){
             var url = v.link
             if(v.id == 1){
                 url = 'http://wap.tjqpjt.com'
             }
             if(v.id == 2){
-                url = 'http://m.tjqpjt.com'
+                url = 'http://shop.tjqpjt.com'
             }
             html += '<a href="'+ url +'?id='+ v.id +'"><li>'+ v.name +'</li></a>'
         })

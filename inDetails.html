@@ -1,9 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+<meta content=”width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;” name=”viewport” />
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?174ed9804ea40f6ed7a93e63c2a4c7d1";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>行业咨询详情</title>
+    <title>新闻资讯详情</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/inDetails.css">
@@ -73,6 +83,49 @@
 
 
         $('.cont').html(html);
+
+        var title = res.data.title,
+            link = location.href,
+            desc = "助力企业快速成长，为企业提供财税筹划、工商注册、软件开发等服务",
+            imgUrl = res.data.pic_url;
+        $.post(localStorage.getItem("http") + "wechat/get_jssdk_config",{url: link},function(res){
+            wx.config(res.data);
+            wx.ready(function() {
+                wx.checkJsApi({
+                    jsApiList: res.data.jsApiList, // 需要检测的JS接口列表，所有JS接口列表见附录2,
+                    success: function (res) {
+                        console.log(res);
+                        // 以键值对的形式返回，可用的api值true，不可用为false
+                        // 如：{"checkResult":{"chooseImage":true},"errMsg":"checkJsApi:ok"}
+                    }
+                });
+                wx.onMenuShareTimeline({
+                    title: title, // 分享标题
+                    link: link, // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+                    imgUrl: imgUrl, // 分享图标
+                    success: function () {
+                        // 设置成功
+                        // alert("message ok");
+                    }
+                });
+
+                wx.onMenuShareAppMessage({
+                    title: title, // 分享标题
+                    desc:desc,
+                    link: link, // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+                    imgUrl: imgUrl, // 分享图标
+                    success: function () {
+                        // 设置成功
+                        // alert("timeline ok");
+                    }
+                })
+            });
+        });
     })
+
+
+
+
+
 </script>
 </html>

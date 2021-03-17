@@ -1,7 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19ec63da-0779-435f-9bc7-2561bc5b4d28" name="Default Changelist" comment="" />
+    <list default="true" id="19ec63da-0779-435f-9bc7-2561bc5b4d28" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/MP_verify_qrBMrcE5yocm4KYz.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/develop.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/develop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/crm/content4_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/crm/content4_item_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/crm/content6_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/crm/content6_right_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/develop/case_img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/develop/case_img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/develop/case_img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/develop/case_img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/develop/develop_icon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/develop/develop_icon2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/develop/develop_icon3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/develop/develop_icon4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/develop/develop_icon5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/develop/develop_icon6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/develop/develop_icon7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/develop/develop_icon8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/develop/guarantee_bg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/develop/guarantee_bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/develop/guarantee_bg3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/develop/guarantee_bg4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/develop/guarantee_bg5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/develop/guarantee_bg6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/success_popup_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/develop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AboutUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/AboutUs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Approved.html" beforeDir="false" afterPath="$PROJECT_DIR$/Approved.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Daikai.html" beforeDir="false" afterPath="$PROJECT_DIR$/Daikai.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flexible.html" beforeDir="false" afterPath="$PROJECT_DIR$/Flexible.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Toplay.html" beforeDir="false" afterPath="$PROJECT_DIR$/Toplay.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm.html" beforeDir="false" afterPath="$PROJECT_DIR$/crm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/enterQP.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/enterQP.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/industry.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/industry.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/joinIn.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/joinIn.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/inDetails.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/industry.html" beforeDir="false" afterPath="$PROJECT_DIR$/industry.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joinIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/joinIn.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/joinIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/joinIn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recruit.html" beforeDir="false" afterPath="$PROJECT_DIR$/recruit.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,13 +68,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/jinfengQiao/phoneShop" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1kXO0BztRB5KmQQwyOdESfW6Xps" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -83,7 +142,21 @@
       <workItem from="1612148372192" duration="1308000" />
       <workItem from="1612246168084" duration="278000" />
       <workItem from="1612318830206" duration="19506000" />
-      <workItem from="1612399123717" duration="22048000" />
+      <workItem from="1612399123717" duration="22723000" />
+      <workItem from="1612505651459" duration="11831000" />
+      <workItem from="1612661195729" duration="2069000" />
+      <workItem from="1613956702955" duration="968000" />
+      <workItem from="1614739724670" duration="864000" />
+      <workItem from="1614740601087" duration="638000" />
+      <workItem from="1614741276035" duration="9587000" />
+      <workItem from="1615253458566" duration="2967000" />
+      <workItem from="1615256840848" duration="155000" />
+      <workItem from="1615432887582" duration="2611000" />
+      <workItem from="1615510045168" duration="72000" />
+      <workItem from="1615627778036" duration="1132000" />
+      <workItem from="1615769077486" duration="12568000" />
+      <workItem from="1615797537654" duration="264000" />
+      <workItem from="1615958419443" duration="1759000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1612426155639</created>
@@ -92,25 +165,33 @@
       <option name="project" value="LOCAL" />
       <updated>1612426155639</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="第一次提交">
+      <created>1612426793294</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1612426793294</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="第一次提交" />
     <option name="LAST_COMMIT_MESSAGE" value="第一次提交" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="558" y="86" key="CommitChangelistDialog2" timestamp="1612426154105">
+    <state x="558" y="86" key="CommitChangelistDialog2" timestamp="1612426791835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="86" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1612426154105" />
-    <state x="184" y="86" key="DiffContextDialog" timestamp="1612426166376">
+    <state x="558" y="86" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1612426791835" />
+    <state x="184" y="86" key="DiffContextDialog" timestamp="1612426745922">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612426166376" />
+    <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612426745922" />
     <state x="771" y="439" key="Github.CreateGistDialog" timestamp="1612425085692">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -123,25 +204,33 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="800" y="217" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612425967327" />
+    <state x="797" y="221" key="RollbackChangesDialog" timestamp="1612426758107">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="797" y="221" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612426758107" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1612426124450">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1612426124450" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1612426170354">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1612426801379">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612426170354" />
-    <state x="1169" y="293" width="596" height="594" key="find.popup" timestamp="1612331821130">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612426801379" />
+    <state x="92" y="92" width="1736" height="856" key="dock-window-1" timestamp="1614758202842">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1169" y="293" width="596" height="594" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612331821130" />
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1612406457072">
+    <state x="92" y="92" width="1736" height="856" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1614758202842" />
+    <state x="1169" y="293" width="656" height="594" key="find.popup" timestamp="1615771981385">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612406457072" />
-    <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1611884744212">
+    <state x="1169" y="293" width="656" height="594" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1615771981385" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1614758481408">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1611884744212" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1614758481408" />
+    <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1615774925067">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1615774925067" />
   </component>
 </project>

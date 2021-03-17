@@ -4,6 +4,7 @@
     font-size: 0.14rem;
     padding: 0.98rem 0 0 0;
     box-sizing: border-box;
+    background-color: #ffffff;
 }
 header{
     position: fixed;

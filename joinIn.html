@@ -1,5 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?174ed9804ea40f6ed7a93e63c2a4c7d1";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +17,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/joinIn.css">
+    <link href="//cdn.bootcss.com/layer/3.0.1/skin/default/layer.css" rel="stylesheet">
 </head>
 <body>
 <div class="box">
@@ -38,7 +48,7 @@
             <img src="images/tel_icon.png" alt="">
             <input type="text" placeholder="请输入您的联系方式" id="phone_item">
         </div>
-        <button type="button">免费获取方案</button>
+        <button type="submit" id="fast_reg">免费获取方案</button>
     </div>
 <!--    是否被以下问题所困扰？-->
     <div class="problem">
@@ -320,11 +330,17 @@
             </ul>
         </div>
     </div>
-
-
-
     <!-- 脚 -->
     <div class="footer"></div>
+
+<!--    免费获取方案成功后的弹窗-->
+    <div class="success_popup_b">
+        <div class="success_popup">
+            <img src="images/success_popup_icon.png" alt="">
+            <p>提交成功</p>
+            <span id="time"></span>
+        </div>
+    </div>
 </div>
 
 
@@ -334,4 +350,6 @@
 <script src="js/rem.js"></script>
 <script src="js/common.js"></script>
 <script src="js/joinIn.js"></script>
+<script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script src="//cdn.bootcss.com/layer/3.0.1/layer.min.js"></script>
 </html>

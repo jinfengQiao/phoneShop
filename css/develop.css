@@ -1,0 +1,323 @@
+.rotation{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 3rem;
+}
+.rotation img{
+    float: left;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.ratationCont{
+    position: absolute;
+    left: 0;
+    height: 0;
+    width: 70%;
+    height: 100%;
+    /* background-color: #000000; */
+    padding: 0.4rem 0 0 0.4rem;
+    box-sizing: border-box;
+}
+.ratationCont span{
+    float: left;
+    width: 100%;
+    font-size: 0.31rem;
+    color: #FFFFFF;
+    text-align: left;
+}
+.line1{
+    float: left;
+    margin: 0.16rem 0;
+    width: 0.4rem;
+    height: 0.05rem;
+    background-color: #ffffff;
+}
+.ratationCont p{
+    float: left;
+    width: 100%;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: left;
+    padding: 0 0 0 0.02rem;
+    box-sizing: border-box;
+}
+.btnBox11{
+    position: absolute;
+    bottom: 0.4rem;
+    left: 0.4rem;
+    float: left;
+    margin-left: 0.02rem;
+    margin-top: 0.36rem;
+    width: 1.8rem;
+    height: 0.4rem;
+    line-height: 0.4rem;
+}
+.btnBox11 button{
+    float: left;
+    width: 100%;
+    height: 100%;
+    color: #FFFFFF;
+    border:  1px solid #ffffff;
+    box-sizing: border-box;
+    font-size: 0.12rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding: 0 0.3rem 0 0.2rem;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 0.02rem;
+}
+.btnBox11 img{
+    position: absolute;
+    top: 0.15rem;
+    right: 0.18rem;
+    width: 0.2rem;
+    height: 0.12rem;
+}
+.introduce{
+    float: left;
+    width: 100%;
+    padding: 0.6rem 0.32rem 0;
+    box-sizing: border-box;
+}
+.introduceHead,.guaranteeHead,.caseHead,.contactusHead{
+    position: relative;
+    float: left;
+    width: 100%;
+    font-size: 0.36rem;
+    font-family: Microsoft YaHei;
+    color: #333333;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.2rem 0 0 0;
+    box-sizing: border-box;
+}
+.introduceHead span,.guaranteeHead span,.caseHead span,.contactus span{
+    position: absolute;
+    left: 0;
+    top: -0.25rem;
+    width: 100%;
+    font-size: 0.64rem;
+    font-family: Roboto;
+    font-weight: bold;
+    color: #cccccc;
+    opacity: 0.2;
+    text-transform: uppercase;
+    text-align: center;
+}
+.introduceHead i,.guaranteeHead i,.caseHead i,.contactus i{
+    position: absolute;
+    bottom: -0.08rem;
+    left: 50%;
+    margin-left: -0.18rem;
+    width: 0.36rem;
+    height: 0.07rem;
+    background: #333333;
+}
+.introduceCont{
+    float: left;
+    width: 100%;
+    color: #666666;
+}
+.introduceCont ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.introduceCont li{
+    width: 1.2rem;
+    text-align: center;
+    margin-top: 0.4rem;
+}
+.introduceCont img{
+    width: 0.68rem;
+    height: 0.68rem;
+}
+.introduceCont li:first-child img{
+    width: 0.5rem;
+    height: 0.68rem;
+}
+.introduceCont li:nth-child(2) img{
+    width: 0.78rem;
+    height: 0.68rem;
+}
+.introduceCont span{
+    margin-top: 0.29rem;
+    width: 100%;
+    text-align: center;
+    font-size: 0.24rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #333333;
+    display: inline-block;
+}
+.guarantee{
+    float: left;
+    width: 100%;
+    padding: 0.6rem 0.32rem 0;
+    box-sizing: border-box;
+}
+.guaranteeCont{
+    float: left;
+    margin-top: 0.4rem;
+    width: 100%;
+}
+.guaranteeCont ul{
+    width: 100%;
+}
+.guaranteeCont li{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.4rem;
+}
+.guaranteeCont li img{
+    width: 2.25rem;
+    object-fit: cover;
+}
+.guaranteeCont li .text_b{
+    width: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text_b span{
+    width: 100%;
+    text-align: left;
+    font-size: 0.3rem;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #2D52B0;
+}
+.text_b p{
+    margin-top: 0.2rem;
+    color: #666666;
+    font-size: 0.24rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+}
+.case{
+    float: left;
+    width: 100%;
+    padding: 0 0.32rem;
+    box-sizing: border-box;
+}
+.caseCont{
+    float: left;
+    padding: 0.3rem 0;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 0.24rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #333333;
+}
+.caseCont img{
+    width: 100%;
+    object-fit: cover;
+}
+.caseCont p{
+    width: 100%;
+    text-align: center;
+    margin: 0.08rem 0 0.28rem;
+}
+.contactus{
+    float: left;
+    width: 100%;
+    padding: 0 0.32rem;
+    box-sizing: border-box;
+}
+.contactusCont{
+    float: left;
+    padding: 0.3rem 0 0.4rem;
+    box-sizing: border-box;
+    width: 100%;
+}
+.contactusCont ul,.contactusCont li{
+    width: 100%;
+}
+.contactusCont li{
+    margin-bottom: 0.3rem;
+}
+.contactusCont input{
+    width: 100%;
+    height: 0.74rem;
+    background: #F7F9FF;
+    padding: 0 0.3rem;
+    box-sizing: border-box;
+    color: #333333;
+    font-size: 0.24rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+}
+.contactusCont textarea{
+    width: 100%;
+    padding: 0.2rem 0.3rem;
+    box-sizing: border-box;
+    min-height: 1.8rem;
+    background: #F7F9FF;
+    color: #333333;
+    font-size: 0.24rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+}
+.contactusCont button{
+    width: 100%;
+    height: 0.8rem;
+    background: #2D52B0;
+    font-size: 0.3rem;
+    font-family: PingFang SC;
+    font-weight: 400;
+    color: #FFFFFF;
+    letter-spacing: 0.1rem;
+    border-radius: 0.1rem;
+    outline: none;
+    border: 0;
+}
+
+
+
+html,body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /*background: #fff;*/
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+.swiper-pagination{
+    bottom: 3px!important;
+}
+

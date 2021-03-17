@@ -28,18 +28,18 @@
             <span>津公网安备 12010302001783号</span>
         </div>
     </div> -->
-    
+    <input type="text" placeholder="">
 </footer>
 
 
 <script>
-    var title = document.title,
+    console.log("foot inc success");
+    var title = "权鹏集团-企业服务国际知名品牌",
         link = location.href,
-        desc = "提供企业发展全周期服务。主要包括：工商服务、财税服务、知识产权、企业咨询。",
+        desc = "助力企业快速成长，为企业提供财税筹划、工商注册、软件开发等服务",
         imgUrl = 'https://m.tjqpjt.com/logo.png';
     $.post(localStorage.getItem("http") + "wechat/get_jssdk_config",{url: link},function(res){
         wx.config(res.data);
-
         wx.ready(function() {
             wx.checkJsApi({
                 jsApiList: res.data.jsApiList, // 需要检测的JS接口列表，所有JS接口列表见附录2,
@@ -50,23 +50,23 @@
                 }
             });
             wx.onMenuShareTimeline({
-                title: "权鹏集团 - " + title, // 分享标题
+                title: title, // 分享标题
                 link: link, // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
                 imgUrl: imgUrl, // 分享图标
                 success: function () {
                     // 设置成功
-                    alert("message ok");
+                    // alert("message ok");
                 }
             });
 
             wx.onMenuShareAppMessage({
-                title: "权鹏集团 - " + title, // 分享标题
+                title: title, // 分享标题
                 desc:desc,
                 link: link, // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
                 imgUrl: imgUrl, // 分享图标
                 success: function () {
                     // 设置成功
-                    alert("timeline ok");
+                    // alert("timeline ok");
                 }
             })
         });

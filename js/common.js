@@ -57,13 +57,29 @@ function jumpDaikai(){
 
 
 //本地
-localStorage.setItem('http', "http://of.kurohane.com/api/");
-localStorage.setItem('http', "http://192.168.1.244/official/public/api/");
+// localStorage.setItem('http', "http://of.kurohane.com/api/");
+// localStorage.setItem('http', "http://192.168.1.244/official/public/api/");
 //正式
-// localStorage.setItem('http', "https://of.tjqpjt.com/api/");
+localStorage.setItem('http', "https://of.tjqpjt.com/api/");
 
 // 引入header头文件
 $(".header").load('../header.html');
 // 引入footer脚文件
 $(".footer").load('../footer.html');
 
+// 禁止缩放
+// 禁止双指放大
+document.documentElement.addEventListener('touchstart', function (event) {
+    if (event.touches.length > 1) {
+        event.preventDefault();
+    }
+}, false);
+// 禁止双击放大
+var lastTouchEnd = 0;
+document.documentElement.addEventListener('touchend', function (event) {
+    var now = Date.now();
+    if (now - lastTouchEnd <= 300) {
+        event.preventDefault();
+    }
+    lastTouchEnd = now;
+}, false);
